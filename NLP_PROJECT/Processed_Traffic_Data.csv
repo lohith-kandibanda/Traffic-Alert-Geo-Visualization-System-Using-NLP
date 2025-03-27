@@ -1,0 +1,221 @@
+City,Post,Cleaned_Post,Traffic_Location,Traffic_Cause,Alert_Message
+Mumbai,Accident reported near Powai. Expect delays.,accident reported near powai expect delays,Powai,accident,Traffic alert in Mumbai near Powai. Cause: accident.
+Bangalore,"Police checkpoint near Indiranagar, causing minor delays.",police checkpoint near indiranagar causing minor delays,,checkpoint,Traffic alert in Bangalore near unknown location. Cause: checkpoint.
+Bangalore,Rain causing waterlogging near Indiranagar. Drive carefully!,rain causing waterlogging near indiranagar drive carefully,,rain,Traffic alert in Bangalore near unknown location. Cause: rain.
+Mumbai,"Road construction near Andheri, causing slow traffic.",road construction near andheri causing slow traffic,Andheri,road_construction,Traffic alert in Mumbai near Andheri. Cause: road_construction.
+Hyderabad,Rain causing waterlogging near Gachibowli. Drive carefully!,rain causing waterlogging near gachibowli drive carefully,Gachibowli,rain,Traffic alert in Hyderabad near Gachibowli. Cause: rain.
+Mumbai,"Road construction near Colaba, causing slow traffic.",road construction near colaba causing slow traffic,Colaba,road_construction,Traffic alert in Mumbai near Colaba. Cause: road_construction.
+Delhi,"Avoid Karol Bagh if possible, traffic jam reported.",avoid karol bagh possible traffic jam reported,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Bangalore,Rain causing waterlogging near Marathahalli. Drive carefully!,rain causing waterlogging near marathahalli drive carefully,Marathahalli,rain,Traffic alert in Bangalore near Marathahalli. Cause: rain.
+Bangalore,Accident reported near Electronic City. Expect delays.,accident reported near electronic city expect delays,Electronic City,accident,Traffic alert in Bangalore near Electronic City. Cause: accident.
+Mumbai,Peak hour traffic near Bandra. Plan accordingly.,peak hour traffic near bandra plan accordingly,,other,Traffic alert in Mumbai near unknown location. Cause: other.
+Hyderabad,"Police checkpoint near Jubilee Hills, causing minor delays.",police checkpoint near jubilee hills causing minor delays,Jubilee Hills,checkpoint,Traffic alert in Hyderabad near Jubilee Hills. Cause: checkpoint.
+Bangalore,Marathahalli route is experiencing high traffic volume.,marathahalli route experiencing high traffic volume,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Hyderabad,"Traffic is heavy near Jubilee Hills, please take another route.",traffic heavy near jubilee hills please take another route,Jubilee Hills,other,Traffic alert in Hyderabad near Jubilee Hills. Cause: other.
+Hyderabad,Peak hour traffic near Secunderabad. Plan accordingly.,peak hour traffic near secunderabad plan accordingly,Secunderabad,other,Traffic alert in Hyderabad near Secunderabad. Cause: other.
+Mumbai,Powai route is experiencing high traffic volume.,powai route experiencing high traffic volume,Powai,other,Traffic alert in Mumbai near Powai. Cause: other.
+Bangalore,"Traffic moving smoothly near Electronic City, all clear!",traffic moving smoothly near electronic city clear,Electronic City,other,Traffic alert in Bangalore near Electronic City. Cause: other.
+Bangalore,"Traffic is heavy near Electronic City, please take another route.",traffic heavy near electronic city please take another route,Electronic City,other,Traffic alert in Bangalore near Electronic City. Cause: other.
+Bangalore,"Avoid Kasavanahalli if possible, traffic jam reported.",avoid kasavanahalli possible traffic jam reported,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Delhi,"Traffic moving smoothly near Dwarka, all clear!",traffic moving smoothly near dwarka clear,Dwarka,other,Traffic alert in Delhi near Dwarka. Cause: other.
+Delhi,"Traffic moving smoothly near Karol Bagh, all clear!",traffic moving smoothly near karol bagh clear,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Hyderabad,Peak hour traffic near Gachibowli. Plan accordingly.,peak hour traffic near gachibowli plan accordingly,Gachibowli,other,Traffic alert in Hyderabad near Gachibowli. Cause: other.
+Mumbai,Accident reported near Colaba. Expect delays.,accident reported near colaba expect delays,Colaba,accident,Traffic alert in Mumbai near Colaba. Cause: accident.
+Mumbai,Colaba route is experiencing high traffic volume.,colaba route experiencing high traffic volume,Colaba,other,Traffic alert in Mumbai near Colaba. Cause: other.
+Bangalore,Koramangala route is experiencing high traffic volume.,koramangala route experiencing high traffic volume,Koramangala,other,Traffic alert in Bangalore near Koramangala. Cause: other.
+Bangalore,"Traffic is heavy near Kasavanahalli, please take another route.",traffic heavy near kasavanahalli please take another route,Kasavanahalli,other,Traffic alert in Bangalore near Kasavanahalli. Cause: other.
+Bangalore,"Police checkpoint near Electronic City, causing minor delays.",police checkpoint near electronic city causing minor delays,Electronic City,checkpoint,Traffic alert in Bangalore near Electronic City. Cause: checkpoint.
+Hyderabad,"Road construction near Banjara Hills, causing slow traffic.",road construction near banjara hills causing slow traffic,Banjara Hills,road_construction,Traffic alert in Hyderabad near Banjara Hills. Cause: road_construction.
+Mumbai,"Avoid Dadar if possible, traffic jam reported.",avoid dadar possible traffic jam reported,,other,Traffic alert in Mumbai near unknown location. Cause: other.
+Delhi,Vehicle breakdown near Connaught Place causing congestion.,vehicle breakdown near connaught place causing congestion,,vehicle_breakdown,Traffic alert in Delhi near unknown location. Cause: vehicle_breakdown.
+Hyderabad,"Road construction near Hitech City, causing slow traffic.",road construction near hitech city causing slow traffic,Hitech City,road_construction,Traffic alert in Hyderabad near Hitech City. Cause: road_construction.
+Mumbai,"Avoid Bandra if possible, traffic jam reported.",avoid bandra possible traffic jam reported,,other,Traffic alert in Mumbai near unknown location. Cause: other.
+Bangalore,"Road construction near Kasavanahalli, causing slow traffic.",road construction near kasavanahalli causing slow traffic,Kasavanahalli,road_construction,Traffic alert in Bangalore near Kasavanahalli. Cause: road_construction.
+Delhi,Connaught Place route is experiencing high traffic volume.,connaught place route experiencing high traffic volume,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Delhi,"Police checkpoint near Karol Bagh, causing minor delays.",police checkpoint near karol bagh causing minor delays,,checkpoint,Traffic alert in Delhi near unknown location. Cause: checkpoint.
+Hyderabad,"Police checkpoint near Secunderabad, causing minor delays.",police checkpoint near secunderabad causing minor delays,Secunderabad,checkpoint,Traffic alert in Hyderabad near Secunderabad. Cause: checkpoint.
+Hyderabad,"Road construction near Gachibowli, causing slow traffic.",road construction near gachibowli causing slow traffic,Gachibowli,road_construction,Traffic alert in Hyderabad near Gachibowli. Cause: road_construction.
+Hyderabad,"Avoid Secunderabad if possible, traffic jam reported.",avoid secunderabad possible traffic jam reported,,other,Traffic alert in Hyderabad near unknown location. Cause: other.
+Delhi,Chandni Chowk route is experiencing high traffic volume.,chandni chowk route experiencing high traffic volume,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Delhi,Peak hour traffic near Chandni Chowk. Plan accordingly.,peak hour traffic near chandni chowk plan accordingly,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Hyderabad,"Avoid Banjara Hills if possible, traffic jam reported.",avoid banjara hills possible traffic jam reported,,other,Traffic alert in Hyderabad near unknown location. Cause: other.
+Bangalore,"Traffic moving smoothly near Marathahalli, all clear!",traffic moving smoothly near marathahalli clear,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Bangalore,"Police checkpoint near Marathahalli, causing minor delays.",police checkpoint near marathahalli causing minor delays,,checkpoint,Traffic alert in Bangalore near unknown location. Cause: checkpoint.
+Delhi,"Police checkpoint near Saket, causing minor delays.",police checkpoint near saket causing minor delays,Saket,checkpoint,Traffic alert in Delhi near Saket. Cause: checkpoint.
+Hyderabad,Accident reported near Hitech City. Expect delays.,accident reported near hitech city expect delays,Hitech City,accident,Traffic alert in Hyderabad near Hitech City. Cause: accident.
+Hyderabad,"Traffic moving smoothly near Secunderabad, all clear!",traffic moving smoothly near secunderabad clear,Secunderabad,other,Traffic alert in Hyderabad near Secunderabad. Cause: other.
+Hyderabad,Rain causing waterlogging near Secunderabad. Drive carefully!,rain causing waterlogging near secunderabad drive carefully,Secunderabad,rain,Traffic alert in Hyderabad near Secunderabad. Cause: rain.
+Hyderabad,Peak hour traffic near Jubilee Hills. Plan accordingly.,peak hour traffic near jubilee hills plan accordingly,Jubilee Hills,other,Traffic alert in Hyderabad near Jubilee Hills. Cause: other.
+Hyderabad,Secunderabad route is experiencing high traffic volume.,secunderabad route experiencing high traffic volume,,other,Traffic alert in Hyderabad near unknown location. Cause: other.
+Bangalore,"Traffic moving smoothly near Kasavanahalli, all clear!",traffic moving smoothly near kasavanahalli clear,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Mumbai,Vehicle breakdown near Andheri causing congestion.,vehicle breakdown near andheri causing congestion,Andheri,vehicle_breakdown,Traffic alert in Mumbai near Andheri. Cause: vehicle_breakdown.
+Bangalore,"Road construction near Indiranagar, causing slow traffic.",road construction near indiranagar causing slow traffic,,road_construction,Traffic alert in Bangalore near unknown location. Cause: road_construction.
+Delhi,Rain causing waterlogging near Karol Bagh. Drive carefully!,rain causing waterlogging near karol bagh drive carefully,,rain,Traffic alert in Delhi near unknown location. Cause: rain.
+Mumbai,"Police checkpoint near Powai, causing minor delays.",police checkpoint near powai causing minor delays,Powai,checkpoint,Traffic alert in Mumbai near Powai. Cause: checkpoint.
+Delhi,Vehicle breakdown near Dwarka causing congestion.,vehicle breakdown near dwarka causing congestion,Dwarka,vehicle_breakdown,Traffic alert in Delhi near Dwarka. Cause: vehicle_breakdown.
+Mumbai,Vehicle breakdown near Dadar causing congestion.,vehicle breakdown near dadar causing congestion,,vehicle_breakdown,Traffic alert in Mumbai near unknown location. Cause: vehicle_breakdown.
+Hyderabad,Accident reported near Banjara Hills. Expect delays.,accident reported near banjara hills expect delays,Banjara Hills,accident,Traffic alert in Hyderabad near Banjara Hills. Cause: accident.
+Mumbai,"Traffic is heavy near Powai, please take another route.",traffic heavy near powai please take another route,Powai,other,Traffic alert in Mumbai near Powai. Cause: other.
+Delhi,"Avoid Connaught Place if possible, traffic jam reported.",avoid connaught place possible traffic jam reported,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Hyderabad,Vehicle breakdown near Jubilee Hills causing congestion.,vehicle breakdown near jubilee hills causing congestion,Jubilee Hills,vehicle_breakdown,Traffic alert in Hyderabad near Jubilee Hills. Cause: vehicle_breakdown.
+Bangalore,"Traffic is heavy near Indiranagar, please take another route.",traffic heavy near indiranagar please take another route,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Hyderabad,Rain causing waterlogging near Banjara Hills. Drive carefully!,rain causing waterlogging near banjara hills drive carefully,Banjara Hills,rain,Traffic alert in Hyderabad near Banjara Hills. Cause: rain.
+Delhi,Accident reported near Saket. Expect delays.,accident reported near saket expect delays,Saket,accident,Traffic alert in Delhi near Saket. Cause: accident.
+Mumbai,"Traffic moving smoothly near Powai, all clear!",traffic moving smoothly near powai clear,Powai,other,Traffic alert in Mumbai near Powai. Cause: other.
+Delhi,Peak hour traffic near Connaught Place. Plan accordingly.,peak hour traffic near connaught place plan accordingly,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Bangalore,Peak hour traffic near Marathahalli. Plan accordingly.,peak hour traffic near marathahalli plan accordingly,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Bangalore,"Traffic is heavy near Koramangala, please take another route.",traffic heavy near koramangala please take another route,Koramangala,other,Traffic alert in Bangalore near Koramangala. Cause: other.
+Delhi,"Road construction near Saket, causing slow traffic.",road construction near saket causing slow traffic,Saket,road_construction,Traffic alert in Delhi near Saket. Cause: road_construction.
+Bangalore,"Police checkpoint near Koramangala, causing minor delays.",police checkpoint near koramangala causing minor delays,Koramangala,checkpoint,Traffic alert in Bangalore near Koramangala. Cause: checkpoint.
+Bangalore,Peak hour traffic near Koramangala. Plan accordingly.,peak hour traffic near koramangala plan accordingly,Koramangala,other,Traffic alert in Bangalore near Koramangala. Cause: other.
+Hyderabad,"Traffic is heavy near Secunderabad, please take another route.",traffic heavy near secunderabad please take another route,Secunderabad,other,Traffic alert in Hyderabad near Secunderabad. Cause: other.
+Delhi,"Police checkpoint near Connaught Place, causing minor delays.",police checkpoint near connaught place causing minor delays,,checkpoint,Traffic alert in Delhi near unknown location. Cause: checkpoint.
+Delhi,Rain causing waterlogging near Chandni Chowk. Drive carefully!,rain causing waterlogging near chandni chowk drive carefully,,rain,Traffic alert in Delhi near unknown location. Cause: rain.
+Mumbai,"Traffic moving smoothly near Andheri, all clear!",traffic moving smoothly near andheri clear,Andheri,other,Traffic alert in Mumbai near Andheri. Cause: other.
+Delhi,"Traffic is heavy near Dwarka, please take another route.",traffic heavy near dwarka please take another route,Dwarka,other,Traffic alert in Delhi near Dwarka. Cause: other.
+Bangalore,Vehicle breakdown near Kasavanahalli causing congestion.,vehicle breakdown near kasavanahalli causing congestion,Kasavanahalli,vehicle_breakdown,Traffic alert in Bangalore near Kasavanahalli. Cause: vehicle_breakdown.
+Hyderabad,Peak hour traffic near Hitech City. Plan accordingly.,peak hour traffic near hitech city plan accordingly,Hitech City,other,Traffic alert in Hyderabad near Hitech City. Cause: other.
+Bangalore,Rain causing waterlogging near Electronic City. Drive carefully!,rain causing waterlogging near electronic city drive carefully,Electronic City,rain,Traffic alert in Bangalore near Electronic City. Cause: rain.
+Delhi,"Avoid Saket if possible, traffic jam reported.",avoid saket possible traffic jam reported,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Delhi,"Traffic is heavy near Chandni Chowk, please take another route.",traffic heavy near chandni chowk please take another route,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Mumbai,"Road construction near Dadar, causing slow traffic.",road construction near dadar causing slow traffic,Dadar,road_construction,Traffic alert in Mumbai near Dadar. Cause: road_construction.
+Mumbai,Bandra route is experiencing high traffic volume.,bandra route experiencing high traffic volume,,other,Traffic alert in Mumbai near unknown location. Cause: other.
+Bangalore,"Avoid Koramangala if possible, traffic jam reported.",avoid koramangala possible traffic jam reported,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Bangalore,Indiranagar route is experiencing high traffic volume.,indiranagar route experiencing high traffic volume,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Delhi,"Traffic moving smoothly near Connaught Place, all clear!",traffic moving smoothly near connaught place clear,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Delhi,"Road construction near Chandni Chowk, causing slow traffic.",road construction near chandni chowk causing slow traffic,,road_construction,Traffic alert in Delhi near unknown location. Cause: road_construction.
+Delhi,Rain causing waterlogging near Dwarka. Drive carefully!,rain causing waterlogging near dwarka drive carefully,Dwarka,rain,Traffic alert in Delhi near Dwarka. Cause: rain.
+Mumbai,Vehicle breakdown near Bandra causing congestion.,vehicle breakdown near bandra causing congestion,Bandra,vehicle_breakdown,Traffic alert in Mumbai near Bandra. Cause: vehicle_breakdown.
+Bangalore,"Avoid Electronic City if possible, traffic jam reported.",avoid electronic city possible traffic jam reported,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Mumbai,Rain causing waterlogging near Colaba. Drive carefully!,rain causing waterlogging near colaba drive carefully,Colaba,rain,Traffic alert in Mumbai near Colaba. Cause: rain.
+Bangalore,"Traffic is heavy near Marathahalli, please take another route.",traffic heavy near marathahalli please take another route,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Mumbai,Accident reported near Dadar. Expect delays.,accident reported near dadar expect delays,,accident,Traffic alert in Mumbai near unknown location. Cause: accident.
+Hyderabad,"Avoid Hitech City if possible, traffic jam reported.",avoid hitech city possible traffic jam reported,,other,Traffic alert in Hyderabad near unknown location. Cause: other.
+Bangalore,Vehicle breakdown near Koramangala causing congestion.,vehicle breakdown near koramangala causing congestion,Koramangala,vehicle_breakdown,Traffic alert in Bangalore near Koramangala. Cause: vehicle_breakdown.
+Mumbai,Rain causing waterlogging near Bandra. Drive carefully!,rain causing waterlogging near bandra drive carefully,,rain,Traffic alert in Mumbai near unknown location. Cause: rain.
+Hyderabad,"Traffic moving smoothly near Jubilee Hills, all clear!",traffic moving smoothly near jubilee hills clear,Jubilee Hills,other,Traffic alert in Hyderabad near Jubilee Hills. Cause: other.
+Mumbai,Andheri route is experiencing high traffic volume.,andheri route experiencing high traffic volume,,other,Traffic alert in Mumbai near unknown location. Cause: other.
+Mumbai,"Traffic moving smoothly near Dadar, all clear!",traffic moving smoothly near dadar clear,,other,Traffic alert in Mumbai near unknown location. Cause: other.
+Delhi,Peak hour traffic near Karol Bagh. Plan accordingly.,peak hour traffic near karol bagh plan accordingly,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Delhi,Rain causing waterlogging near Saket. Drive carefully!,rain causing waterlogging near saket drive carefully,Saket,rain,Traffic alert in Delhi near Saket. Cause: rain.
+Hyderabad,Rain causing waterlogging near Hitech City. Drive carefully!,rain causing waterlogging near hitech city drive carefully,Hitech City,rain,Traffic alert in Hyderabad near Hitech City. Cause: rain.
+Hyderabad,Jubilee Hills route is experiencing high traffic volume.,jubilee hills route experiencing high traffic volume,,other,Traffic alert in Hyderabad near unknown location. Cause: other.
+Mumbai,Vehicle breakdown near Colaba causing congestion.,vehicle breakdown near colaba causing congestion,Colaba,vehicle_breakdown,Traffic alert in Mumbai near Colaba. Cause: vehicle_breakdown.
+Bangalore,"Police checkpoint near Kasavanahalli, causing minor delays.",police checkpoint near kasavanahalli causing minor delays,Kasavanahalli,checkpoint,Traffic alert in Bangalore near Kasavanahalli. Cause: checkpoint.
+Mumbai,Peak hour traffic near Dadar. Plan accordingly.,peak hour traffic near dadar plan accordingly,,other,Traffic alert in Mumbai near unknown location. Cause: other.
+Hyderabad,Rain causing waterlogging near Jubilee Hills. Drive carefully!,rain causing waterlogging near jubilee hills drive carefully,Jubilee Hills,rain,Traffic alert in Hyderabad near Jubilee Hills. Cause: rain.
+Hyderabad,"Road construction near Jubilee Hills, causing slow traffic.",road construction near jubilee hills causing slow traffic,Jubilee Hills,road_construction,Traffic alert in Hyderabad near Jubilee Hills. Cause: road_construction.
+Mumbai,"Police checkpoint near Dadar, causing minor delays.",police checkpoint near dadar causing minor delays,Dadar,checkpoint,Traffic alert in Mumbai near Dadar. Cause: checkpoint.
+Mumbai,Peak hour traffic near Powai. Plan accordingly.,peak hour traffic near powai plan accordingly,Powai,other,Traffic alert in Mumbai near Powai. Cause: other.
+Mumbai,"Avoid Colaba if possible, traffic jam reported.",avoid colaba possible traffic jam reported,,other,Traffic alert in Mumbai near unknown location. Cause: other.
+Delhi,Dwarka route is experiencing high traffic volume.,dwarka route experiencing high traffic volume,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Bangalore,Accident reported near Koramangala. Expect delays.,accident reported near koramangala expect delays,Koramangala,accident,Traffic alert in Bangalore near Koramangala. Cause: accident.
+Delhi,"Police checkpoint near Chandni Chowk, causing minor delays.",police checkpoint near chandni chowk causing minor delays,,checkpoint,Traffic alert in Delhi near unknown location. Cause: checkpoint.
+Delhi,Karol Bagh route is experiencing high traffic volume.,karol bagh route experiencing high traffic volume,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Delhi,Accident reported near Chandni Chowk. Expect delays.,accident reported near chandni chowk expect delays,,accident,Traffic alert in Delhi near unknown location. Cause: accident.
+Mumbai,Peak hour traffic near Andheri. Plan accordingly.,peak hour traffic near andheri plan accordingly,Andheri,other,Traffic alert in Mumbai near Andheri. Cause: other.
+Hyderabad,Vehicle breakdown near Gachibowli causing congestion.,vehicle breakdown near gachibowli causing congestion,Gachibowli,vehicle_breakdown,Traffic alert in Hyderabad near Gachibowli. Cause: vehicle_breakdown.
+Mumbai,"Police checkpoint near Bandra, causing minor delays.",police checkpoint near bandra causing minor delays,Bandra,checkpoint,Traffic alert in Mumbai near Bandra. Cause: checkpoint.
+Mumbai,"Road construction near Bandra, causing slow traffic.",road construction near bandra causing slow traffic,Bandra,road_construction,Traffic alert in Mumbai near Bandra. Cause: road_construction.
+Hyderabad,"Traffic moving smoothly near Gachibowli, all clear!",traffic moving smoothly near gachibowli clear,Gachibowli,other,Traffic alert in Hyderabad near Gachibowli. Cause: other.
+Bangalore,Peak hour traffic near Kasavanahalli. Plan accordingly.,peak hour traffic near kasavanahalli plan accordingly,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Delhi,"Road construction near Connaught Place, causing slow traffic.",road construction near connaught place causing slow traffic,,road_construction,Traffic alert in Delhi near unknown location. Cause: road_construction.
+Mumbai,"Traffic is heavy near Colaba, please take another route.",traffic heavy near colaba please take another route,Colaba,other,Traffic alert in Mumbai near Colaba. Cause: other.
+Delhi,Accident reported near Connaught Place. Expect delays.,accident reported near connaught place expect delays,,accident,Traffic alert in Delhi near unknown location. Cause: accident.
+Delhi,"Traffic moving smoothly near Saket, all clear!",traffic moving smoothly near saket clear,Saket,other,Traffic alert in Delhi near Saket. Cause: other.
+Mumbai,"Avoid Andheri if possible, traffic jam reported.",avoid andheri possible traffic jam reported,,other,Traffic alert in Mumbai near unknown location. Cause: other.
+Bangalore,"Road construction near Marathahalli, causing slow traffic.",road construction near marathahalli causing slow traffic,Marathahalli,road_construction,Traffic alert in Bangalore near Marathahalli. Cause: road_construction.
+Delhi,Vehicle breakdown near Saket causing congestion.,vehicle breakdown near saket causing congestion,Saket,vehicle_breakdown,Traffic alert in Delhi near Saket. Cause: vehicle_breakdown.
+Delhi,Saket route is experiencing high traffic volume.,saket route experiencing high traffic volume,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Delhi,Accident reported near Dwarka. Expect delays.,accident reported near dwarka expect delays,Dwarka,accident,Traffic alert in Delhi near Dwarka. Cause: accident.
+Mumbai,Rain causing waterlogging near Powai. Drive carefully!,rain causing waterlogging near powai drive carefully,Powai,rain,Traffic alert in Mumbai near Powai. Cause: rain.
+Mumbai,Rain causing waterlogging near Andheri. Drive carefully!,rain causing waterlogging near andheri drive carefully,Andheri,rain,Traffic alert in Mumbai near Andheri. Cause: rain.
+Delhi,Rain causing waterlogging near Connaught Place. Drive carefully!,rain causing waterlogging near connaught place drive carefully,,rain,Traffic alert in Delhi near unknown location. Cause: rain.
+Hyderabad,Vehicle breakdown near Secunderabad causing congestion.,vehicle breakdown near secunderabad causing congestion,Secunderabad,vehicle_breakdown,Traffic alert in Hyderabad near Secunderabad. Cause: vehicle_breakdown.
+Bangalore,"Avoid Indiranagar if possible, traffic jam reported.",avoid indiranagar possible traffic jam reported,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Mumbai,"Traffic moving smoothly near Colaba, all clear!",traffic moving smoothly near colaba clear,Colaba,other,Traffic alert in Mumbai near Colaba. Cause: other.
+Mumbai,"Traffic moving smoothly near Bandra, all clear!",traffic moving smoothly near bandra clear,,other,Traffic alert in Mumbai near unknown location. Cause: other.
+Hyderabad,Gachibowli route is experiencing high traffic volume.,gachibowli route experiencing high traffic volume,,other,Traffic alert in Hyderabad near unknown location. Cause: other.
+Bangalore,Vehicle breakdown near Electronic City causing congestion.,vehicle breakdown near electronic city causing congestion,Electronic City,vehicle_breakdown,Traffic alert in Bangalore near Electronic City. Cause: vehicle_breakdown.
+Mumbai,Accident reported near Bandra. Expect delays.,accident reported near bandra expect delays,Bandra,accident,Traffic alert in Mumbai near Bandra. Cause: accident.
+Bangalore,Rain causing waterlogging near Koramangala. Drive carefully!,rain causing waterlogging near koramangala drive carefully,Koramangala,rain,Traffic alert in Bangalore near Koramangala. Cause: rain.
+Bangalore,"Traffic moving smoothly near Koramangala, all clear!",traffic moving smoothly near koramangala clear,Koramangala,other,Traffic alert in Bangalore near Koramangala. Cause: other.
+Bangalore,Peak hour traffic near Indiranagar. Plan accordingly.,peak hour traffic near indiranagar plan accordingly,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Delhi,"Road construction near Karol Bagh, causing slow traffic.",road construction near karol bagh causing slow traffic,,road_construction,Traffic alert in Delhi near unknown location. Cause: road_construction.
+Delhi,"Traffic is heavy near Connaught Place, please take another route.",traffic heavy near connaught place please take another route,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Hyderabad,"Traffic is heavy near Hitech City, please take another route.",traffic heavy near hitech city please take another route,Hitech City,other,Traffic alert in Hyderabad near Hitech City. Cause: other.
+Mumbai,Accident reported near Andheri. Expect delays.,accident reported near andheri expect delays,Andheri,accident,Traffic alert in Mumbai near Andheri. Cause: accident.
+Bangalore,Rain causing waterlogging near Kasavanahalli. Drive carefully!,rain causing waterlogging near kasavanahalli drive carefully,,rain,Traffic alert in Bangalore near unknown location. Cause: rain.
+Hyderabad,Banjara Hills route is experiencing high traffic volume.,banjara hills route experiencing high traffic volume,Banjara Hills,other,Traffic alert in Hyderabad near Banjara Hills. Cause: other.
+Hyderabad,"Police checkpoint near Gachibowli, causing minor delays.",police checkpoint near gachibowli causing minor delays,Gachibowli,checkpoint,Traffic alert in Hyderabad near Gachibowli. Cause: checkpoint.
+Mumbai,"Traffic is heavy near Dadar, please take another route.",traffic heavy near dadar please take another route,Dadar,other,Traffic alert in Mumbai near Dadar. Cause: other.
+Hyderabad,Vehicle breakdown near Banjara Hills causing congestion.,vehicle breakdown near banjara hills causing congestion,Banjara Hills,vehicle_breakdown,Traffic alert in Hyderabad near Banjara Hills. Cause: vehicle_breakdown.
+Delhi,Peak hour traffic near Saket. Plan accordingly.,peak hour traffic near saket plan accordingly,Saket,other,Traffic alert in Delhi near Saket. Cause: other.
+Delhi,Vehicle breakdown near Chandni Chowk causing congestion.,vehicle breakdown near chandni chowk causing congestion,,vehicle_breakdown,Traffic alert in Delhi near unknown location. Cause: vehicle_breakdown.
+Hyderabad,"Traffic moving smoothly near Banjara Hills, all clear!",traffic moving smoothly near banjara hills clear,Banjara Hills,other,Traffic alert in Hyderabad near Banjara Hills. Cause: other.
+Delhi,"Traffic is heavy near Saket, please take another route.",traffic heavy near saket please take another route,Saket,other,Traffic alert in Delhi near Saket. Cause: other.
+Mumbai,Rain causing waterlogging near Dadar. Drive carefully!,rain causing waterlogging near dadar drive carefully,,rain,Traffic alert in Mumbai near unknown location. Cause: rain.
+Bangalore,Kasavanahalli route is experiencing high traffic volume.,kasavanahalli route experiencing high traffic volume,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Hyderabad,Hitech City route is experiencing high traffic volume.,hitech city route experiencing high traffic volume,Hitech City,other,Traffic alert in Hyderabad near Hitech City. Cause: other.
+Bangalore,Vehicle breakdown near Indiranagar causing congestion.,vehicle breakdown near indiranagar causing congestion,,vehicle_breakdown,Traffic alert in Bangalore near unknown location. Cause: vehicle_breakdown.
+Delhi,"Avoid Dwarka if possible, traffic jam reported.",avoid dwarka possible traffic jam reported,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Hyderabad,Accident reported near Secunderabad. Expect delays.,accident reported near secunderabad expect delays,Secunderabad,accident,Traffic alert in Hyderabad near Secunderabad. Cause: accident.
+Hyderabad,"Police checkpoint near Hitech City, causing minor delays.",police checkpoint near hitech city causing minor delays,Hitech City,checkpoint,Traffic alert in Hyderabad near Hitech City. Cause: checkpoint.
+Mumbai,"Police checkpoint near Colaba, causing minor delays.",police checkpoint near colaba causing minor delays,Colaba,checkpoint,Traffic alert in Mumbai near Colaba. Cause: checkpoint.
+Bangalore,Accident reported near Kasavanahalli. Expect delays.,accident reported near kasavanahalli expect delays,Kasavanahalli,accident,Traffic alert in Bangalore near Kasavanahalli. Cause: accident.
+Hyderabad,"Traffic is heavy near Banjara Hills, please take another route.",traffic heavy near banjara hills please take another route,Banjara Hills,other,Traffic alert in Hyderabad near Banjara Hills. Cause: other.
+Hyderabad,"Avoid Gachibowli if possible, traffic jam reported.",avoid gachibowli possible traffic jam reported,,other,Traffic alert in Hyderabad near unknown location. Cause: other.
+Mumbai,Vehicle breakdown near Powai causing congestion.,vehicle breakdown near powai causing congestion,Powai,vehicle_breakdown,Traffic alert in Mumbai near Powai. Cause: vehicle_breakdown.
+Bangalore,Vehicle breakdown near Marathahalli causing congestion.,vehicle breakdown near marathahalli causing congestion,Marathahalli,vehicle_breakdown,Traffic alert in Bangalore near Marathahalli. Cause: vehicle_breakdown.
+Mumbai,"Police checkpoint near Andheri, causing minor delays.",police checkpoint near andheri causing minor delays,Andheri,checkpoint,Traffic alert in Mumbai near Andheri. Cause: checkpoint.
+Delhi,"Police checkpoint near Dwarka, causing minor delays.",police checkpoint near dwarka causing minor delays,Dwarka,checkpoint,Traffic alert in Delhi near Dwarka. Cause: checkpoint.
+Hyderabad,Vehicle breakdown near Hitech City causing congestion.,vehicle breakdown near hitech city causing congestion,Hitech City,vehicle_breakdown,Traffic alert in Hyderabad near Hitech City. Cause: vehicle_breakdown.
+Hyderabad,Accident reported near Jubilee Hills. Expect delays.,accident reported near jubilee hills expect delays,Jubilee Hills,accident,Traffic alert in Hyderabad near Jubilee Hills. Cause: accident.
+Delhi,Vehicle breakdown near Karol Bagh causing congestion.,vehicle breakdown near karol bagh causing congestion,,vehicle_breakdown,Traffic alert in Delhi near unknown location. Cause: vehicle_breakdown.
+Bangalore,"Avoid Marathahalli if possible, traffic jam reported.",avoid marathahalli possible traffic jam reported,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Hyderabad,"Police checkpoint near Banjara Hills, causing minor delays.",police checkpoint near banjara hills causing minor delays,Banjara Hills,checkpoint,Traffic alert in Hyderabad near Banjara Hills. Cause: checkpoint.
+Mumbai,"Traffic is heavy near Andheri, please take another route.",traffic heavy near andheri please take another route,Andheri,other,Traffic alert in Mumbai near Andheri. Cause: other.
+Bangalore,Electronic City route is experiencing high traffic volume.,electronic city route experiencing high traffic volume,Electronic City,other,Traffic alert in Bangalore near Electronic City. Cause: other.
+Bangalore,Accident reported near Indiranagar. Expect delays.,accident reported near indiranagar expect delays,,accident,Traffic alert in Bangalore near unknown location. Cause: accident.
+Hyderabad,"Avoid Jubilee Hills if possible, traffic jam reported.",avoid jubilee hills possible traffic jam reported,,other,Traffic alert in Hyderabad near unknown location. Cause: other.
+Bangalore,"Road construction near Electronic City, causing slow traffic.",road construction near electronic city causing slow traffic,Electronic City,road_construction,Traffic alert in Bangalore near Electronic City. Cause: road_construction.
+Delhi,"Avoid Chandni Chowk if possible, traffic jam reported.",avoid chandni chowk possible traffic jam reported,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Delhi,"Traffic is heavy near Karol Bagh, please take another route.",traffic heavy near karol bagh please take another route,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Mumbai,Peak hour traffic near Colaba. Plan accordingly.,peak hour traffic near colaba plan accordingly,Colaba,other,Traffic alert in Mumbai near Colaba. Cause: other.
+Bangalore,Accident reported near Marathahalli. Expect delays.,accident reported near marathahalli expect delays,Marathahalli,accident,Traffic alert in Bangalore near Marathahalli. Cause: accident.
+Hyderabad,Peak hour traffic near Banjara Hills. Plan accordingly.,peak hour traffic near banjara hills plan accordingly,Banjara Hills,other,Traffic alert in Hyderabad near Banjara Hills. Cause: other.
+Bangalore,Peak hour traffic near Electronic City. Plan accordingly.,peak hour traffic near electronic city plan accordingly,Electronic City,other,Traffic alert in Bangalore near Electronic City. Cause: other.
+Mumbai,"Traffic is heavy near Bandra, please take another route.",traffic heavy near bandra please take another route,Bandra,other,Traffic alert in Mumbai near Bandra. Cause: other.
+Hyderabad,"Road construction near Secunderabad, causing slow traffic.",road construction near secunderabad causing slow traffic,Secunderabad,road_construction,Traffic alert in Hyderabad near Secunderabad. Cause: road_construction.
+Mumbai,Dadar route is experiencing high traffic volume.,dadar route experiencing high traffic volume,,other,Traffic alert in Mumbai near unknown location. Cause: other.
+Delhi,"Traffic moving smoothly near Chandni Chowk, all clear!",traffic moving smoothly near chandni chowk clear,,other,Traffic alert in Delhi near unknown location. Cause: other.
+Bangalore,"Traffic moving smoothly near Indiranagar, all clear!",traffic moving smoothly near indiranagar clear,,other,Traffic alert in Bangalore near unknown location. Cause: other.
+Delhi,"Road construction near Dwarka, causing slow traffic.",road construction near dwarka causing slow traffic,Dwarka,road_construction,Traffic alert in Delhi near Dwarka. Cause: road_construction.
+Delhi,Accident reported near Karol Bagh. Expect delays.,accident reported near karol bagh expect delays,,accident,Traffic alert in Delhi near unknown location. Cause: accident.
+Delhi,Peak hour traffic near Dwarka. Plan accordingly.,peak hour traffic near dwarka plan accordingly,Dwarka,other,Traffic alert in Delhi near Dwarka. Cause: other.
+Hyderabad,"Traffic is heavy near Gachibowli, please take another route.",traffic heavy near gachibowli please take another route,Gachibowli,other,Traffic alert in Hyderabad near Gachibowli. Cause: other.
+Mumbai,"Road construction near Powai, causing slow traffic.",road construction near powai causing slow traffic,Powai,road_construction,Traffic alert in Mumbai near Powai. Cause: road_construction.
+Mumbai,"Avoid Powai if possible, traffic jam reported.",avoid powai possible traffic jam reported,,other,Traffic alert in Mumbai near unknown location. Cause: other.
+Hyderabad,"Traffic moving smoothly near Hitech City, all clear!",traffic moving smoothly near hitech city clear,Hitech City,other,Traffic alert in Hyderabad near Hitech City. Cause: other.
+Hyderabad,Accident reported near Gachibowli. Expect delays.,accident reported near gachibowli expect delays,Gachibowli,accident,Traffic alert in Hyderabad near Gachibowli. Cause: accident.
+Bangalore,"Road construction near Koramangala, causing slow traffic.",road construction near koramangala causing slow traffic,Koramangala,road_construction,Traffic alert in Bangalore near Koramangala. Cause: road_construction.
+Chennai,Heavy tourist rush during the weekend near Marina Beach.,heavy tourist rush weekend near marina beach,Marina Beach,other,Traffic alert in Chennai near Marina Beach. Cause: other.
+Chennai,Religious festival causing traffic congestion at Kapaleeshwarar Temple.,religious festival causing traffic congestion kapaleeshwarar temple,,other,Traffic alert in Chennai near unknown location. Cause: other.
+Chennai,Event at Santhome Basilica leading to slow-moving traffic.,event santhome basilica leading slowmoving traffic,,other,Traffic alert in Chennai near unknown location. Cause: other.
+Chennai,Road blockage due to animal crossing warning near Guindy National Park.,road blockage due animal crossing warning near guindy national park,,other,Traffic alert in Chennai near unknown location. Cause: other.
+Chennai,Construction work causing a bottleneck near Valluvar Kottam.,construction work causing bottleneck near valluvar kottam,,road_construction,Traffic alert in Chennai near unknown location. Cause: road_construction.
+Chennai,Overflow parking issues causing traffic on the approach road to DakshinaChitra Museum.,overflow parking issues causing traffic approach road dakshinachitra museum,,other,Traffic alert in Chennai near unknown location. Cause: other.
+Chennai,Weekend crowd leading to delays on the main road near Edward Elliot's Beach.,weekend crowd leading delays main road near edward elliots beach,,other,Traffic alert in Chennai near unknown location. Cause: other.
+Chennai,Pilgrimage season causing gridlock near Velankanni Shrine.,pilgrimage season causing gridlock near velankanni shrine,,other,Traffic alert in Chennai near unknown location. Cause: other.
+Chennai,Civic rally resulting in road closures near Ripon Building.,civic rally resulting road closures near ripon building,,other,Traffic alert in Chennai near unknown location. Cause: other.
+Chennai,Surfing festival causing a spike in local traffic near Covelong Beach.,surfing festival causing spike local traffic near covelong beach,Covelong Beach,other,Traffic alert in Chennai near Covelong Beach. Cause: other.
+Kolkata,Photography exhibition leading to overcrowding near Victoria Memorial.,photography exhibition leading overcrowding near victoria memorial,,other,Traffic alert in Kolkata near unknown location. Cause: other.
+Kolkata,Maintenance work on Howrah Bridge causing diversions.,maintenance work howrah bridge causing diversions,,other,Traffic alert in Kolkata near unknown location. Cause: other.
+Kolkata,Festival procession leading to traffic snarls at Dakshineswar Kali Temple.,festival procession leading traffic snarls dakshineswar kali temple,,other,Traffic alert in Kolkata near unknown location. Cause: other.
+Kolkata,Religious gathering causing slow-moving traffic near Belur Math.,religious gathering causing slowmoving traffic near belur math,,other,Traffic alert in Kolkata near unknown location. Cause: other.
+Kolkata,Evening walkers and gatherings leading to congestion near Prinsep Ghat.,evening walkers gatherings leading congestion near prinsep ghat,,other,Traffic alert in Kolkata near unknown location. Cause: other.
+Kolkata,New year celebrations causing overcrowding at Eco Park.,new year celebrations causing overcrowding eco park,,other,Traffic alert in Kolkata near unknown location. Cause: other.
+Kolkata,Restaurant rush hour causing congestion on weekends at Park Street.,restaurant rush hour causing congestion weekends park street,,other,Traffic alert in Kolkata near unknown location. Cause: other.
+Kolkata,Book festival leading to blocked entry roads near College Street.,book festival leading blocked entry roads near college street,,other,Traffic alert in Kolkata near unknown location. Cause: other.
+Kolkata,Idol-making season causing increased local traffic near Kumartuli.,idolmaking season causing increased local traffic near kumartuli,Kumartuli,other,Traffic alert in Kolkata near Kumartuli. Cause: other.
+Kolkata,Sports event causing traffic jams in surrounding areas of Salt Lake Stadium.,sports event causing traffic jams surrounding areas salt lake stadium,Salt Lake Stadium,other,Traffic alert in Kolkata near Salt Lake Stadium. Cause: other.

@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9ef4fd1c1d2ffc9d123cf344b1979953 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9ef4fd1c1d2ffc9d123cf344b1979953" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9ef4fd1c1d2ffc9d123cf344b1979953 = L.map(
+                "map_9ef4fd1c1d2ffc9d123cf344b1979953",
+                {
+                    center: [17.439369292857144, 78.4174045547619],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2142ff87fe6288ce5089f142cbd5b0cf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2142ff87fe6288ce5089f142cbd5b0cf.addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var marker_1c1c339cbc16d1a39e99fd0c3c916e19 = L.marker(
+                [17.4436222, 78.3519638],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_03ced783dd32347c6b0f7e4249e97cb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1c1c339cbc16d1a39e99fd0c3c916e19.setIcon(icon_03ced783dd32347c6b0f7e4249e97cb7);
+        
+    
+        var popup_86080c209f830adf2bea9005e78b0ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b0ef3dad3bd38a159a166137716937f = $(`<div id="html_2b0ef3dad3bd38a159a166137716937f" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Gachibowli. Cause: rain. Severity: Negative.</div>`)[0];
+                popup_86080c209f830adf2bea9005e78b0ed6.setContent(html_2b0ef3dad3bd38a159a166137716937f);
+            
+        
+
+        marker_1c1c339cbc16d1a39e99fd0c3c916e19.bindPopup(popup_86080c209f830adf2bea9005e78b0ed6)
+        ;
+
+        
+    
+    
+            marker_1c1c339cbc16d1a39e99fd0c3c916e19.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dad1e6e2d7aa3f3f29c9faaa1a15b22f = L.marker(
+                [17.4308362, 78.4102882],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_363e7c43bea9b690c425e114571022da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dad1e6e2d7aa3f3f29c9faaa1a15b22f.setIcon(icon_363e7c43bea9b690c425e114571022da);
+        
+    
+        var popup_5e44f244c86eb039c725886ac7dea4e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e3671d7e2ac1beba2a98e5545f71243 = $(`<div id="html_2e3671d7e2ac1beba2a98e5545f71243" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Jubilee Hills. Cause: checkpoint. Severity: Positive.</div>`)[0];
+                popup_5e44f244c86eb039c725886ac7dea4e0.setContent(html_2e3671d7e2ac1beba2a98e5545f71243);
+            
+        
+
+        marker_dad1e6e2d7aa3f3f29c9faaa1a15b22f.bindPopup(popup_5e44f244c86eb039c725886ac7dea4e0)
+        ;
+
+        
+    
+    
+            marker_dad1e6e2d7aa3f3f29c9faaa1a15b22f.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b4932ccc63c04db97fffd54b91829b9 = L.marker(
+                [17.4308362, 78.4102882],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_0580a5bbab4af3042741067bf31bb925 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0b4932ccc63c04db97fffd54b91829b9.setIcon(icon_0580a5bbab4af3042741067bf31bb925);
+        
+    
+        var popup_39f1aa0ff257cb9887c9e4f4a5b0fb2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86751f520f7c992e36262a4b6fe0b815 = $(`<div id="html_86751f520f7c992e36262a4b6fe0b815" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Jubilee Hills. Cause: other. Severity: Negative.</div>`)[0];
+                popup_39f1aa0ff257cb9887c9e4f4a5b0fb2e.setContent(html_86751f520f7c992e36262a4b6fe0b815);
+            
+        
+
+        marker_0b4932ccc63c04db97fffd54b91829b9.bindPopup(popup_39f1aa0ff257cb9887c9e4f4a5b0fb2e)
+        ;
+
+        
+    
+    
+            marker_0b4932ccc63c04db97fffd54b91829b9.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf4183447950326fd866cf47bd3cdbb8 = L.marker(
+                [17.4337246, 78.5006827],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_1d9c14c282b7591966fa5852f3fddc46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cf4183447950326fd866cf47bd3cdbb8.setIcon(icon_1d9c14c282b7591966fa5852f3fddc46);
+        
+    
+        var popup_8ba9aa7f7ef533a09c4fa93cee2a0da3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f21ef6cf6b4a857550663fb81246d37 = $(`<div id="html_7f21ef6cf6b4a857550663fb81246d37" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Secunderabad. Cause: other. Severity: Positive.</div>`)[0];
+                popup_8ba9aa7f7ef533a09c4fa93cee2a0da3.setContent(html_7f21ef6cf6b4a857550663fb81246d37);
+            
+        
+
+        marker_cf4183447950326fd866cf47bd3cdbb8.bindPopup(popup_8ba9aa7f7ef533a09c4fa93cee2a0da3)
+        ;
+
+        
+    
+    
+            marker_cf4183447950326fd866cf47bd3cdbb8.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff39d2dc314f5bed3e0f7864dca77831 = L.marker(
+                [17.4436222, 78.3519638],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_baea4d71a895007d3c0f1bed068968f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ff39d2dc314f5bed3e0f7864dca77831.setIcon(icon_baea4d71a895007d3c0f1bed068968f0);
+        
+    
+        var popup_a23f44e22b5a87258c64dcee7ff4ee22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_536b655b60152c1f2569b2b55b6139c8 = $(`<div id="html_536b655b60152c1f2569b2b55b6139c8" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Gachibowli. Cause: other. Severity: Positive.</div>`)[0];
+                popup_a23f44e22b5a87258c64dcee7ff4ee22.setContent(html_536b655b60152c1f2569b2b55b6139c8);
+            
+        
+
+        marker_ff39d2dc314f5bed3e0f7864dca77831.bindPopup(popup_a23f44e22b5a87258c64dcee7ff4ee22)
+        ;
+
+        
+    
+    
+            marker_ff39d2dc314f5bed3e0f7864dca77831.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4abb0913f7b0a23dea329721bdb78c7d = L.marker(
+                [17.4177464, 78.4399014],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_2a6e3cf0c060c2aecbc22141b94b8889 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4abb0913f7b0a23dea329721bdb78c7d.setIcon(icon_2a6e3cf0c060c2aecbc22141b94b8889);
+        
+    
+        var popup_7b675d334f2f28238cb1303587bb7f0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae70a87b9249ed81ea64f24cea3fa6b0 = $(`<div id="html_ae70a87b9249ed81ea64f24cea3fa6b0" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Banjara Hills. Cause: road_construction. Severity: Negative.</div>`)[0];
+                popup_7b675d334f2f28238cb1303587bb7f0d.setContent(html_ae70a87b9249ed81ea64f24cea3fa6b0);
+            
+        
+
+        marker_4abb0913f7b0a23dea329721bdb78c7d.bindPopup(popup_7b675d334f2f28238cb1303587bb7f0d)
+        ;
+
+        
+    
+    
+            marker_4abb0913f7b0a23dea329721bdb78c7d.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0337a3e6bf3ad3e132300589390ed41c = L.marker(
+                [17.4698143, 78.3853779],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_7a190fc7757c93592f019792e11601e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0337a3e6bf3ad3e132300589390ed41c.setIcon(icon_7a190fc7757c93592f019792e11601e3);
+        
+    
+        var popup_6d19761557d97b5b8c74360c592c6172 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b3911d59e078d7973be3a3edc6aee08 = $(`<div id="html_9b3911d59e078d7973be3a3edc6aee08" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Hitech City. Cause: road_construction. Severity: Negative.</div>`)[0];
+                popup_6d19761557d97b5b8c74360c592c6172.setContent(html_9b3911d59e078d7973be3a3edc6aee08);
+            
+        
+
+        marker_0337a3e6bf3ad3e132300589390ed41c.bindPopup(popup_6d19761557d97b5b8c74360c592c6172)
+        ;
+
+        
+    
+    
+            marker_0337a3e6bf3ad3e132300589390ed41c.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea4a1480dfd96e4f3c956c1a2bc6e485 = L.marker(
+                [17.4337246, 78.5006827],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_1ac113db89debc500a53b6739737c329 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea4a1480dfd96e4f3c956c1a2bc6e485.setIcon(icon_1ac113db89debc500a53b6739737c329);
+        
+    
+        var popup_fbd53212496c268f0cedb207800c1732 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_076044fcaf304417863c1b97aea484aa = $(`<div id="html_076044fcaf304417863c1b97aea484aa" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Secunderabad. Cause: checkpoint. Severity: Positive.</div>`)[0];
+                popup_fbd53212496c268f0cedb207800c1732.setContent(html_076044fcaf304417863c1b97aea484aa);
+            
+        
+
+        marker_ea4a1480dfd96e4f3c956c1a2bc6e485.bindPopup(popup_fbd53212496c268f0cedb207800c1732)
+        ;
+
+        
+    
+    
+            marker_ea4a1480dfd96e4f3c956c1a2bc6e485.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0bc9ddad2a8aa89e7f0d6232d710092 = L.marker(
+                [17.4436222, 78.3519638],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_47a649d942fd1ac891580083af2b2e47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d0bc9ddad2a8aa89e7f0d6232d710092.setIcon(icon_47a649d942fd1ac891580083af2b2e47);
+        
+    
+        var popup_d2a6bb30f9b06c7f5376115a001fa94c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e81cfd0bffccf1051d340a481ed9cf8a = $(`<div id="html_e81cfd0bffccf1051d340a481ed9cf8a" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Gachibowli. Cause: road_construction. Severity: Negative.</div>`)[0];
+                popup_d2a6bb30f9b06c7f5376115a001fa94c.setContent(html_e81cfd0bffccf1051d340a481ed9cf8a);
+            
+        
+
+        marker_d0bc9ddad2a8aa89e7f0d6232d710092.bindPopup(popup_d2a6bb30f9b06c7f5376115a001fa94c)
+        ;
+
+        
+    
+    
+            marker_d0bc9ddad2a8aa89e7f0d6232d710092.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66e0c5a40b46a0a10dceceb25119562d = L.marker(
+                [17.4698143, 78.3853779],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_f530a507216cdb10368a62157adcb1da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_66e0c5a40b46a0a10dceceb25119562d.setIcon(icon_f530a507216cdb10368a62157adcb1da);
+        
+    
+        var popup_5390a4910a83154de2eed06347fb8973 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4d4c4fa50164de05a3d81c5df60b800 = $(`<div id="html_f4d4c4fa50164de05a3d81c5df60b800" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Hitech City. Cause: accident. Severity: Positive.</div>`)[0];
+                popup_5390a4910a83154de2eed06347fb8973.setContent(html_f4d4c4fa50164de05a3d81c5df60b800);
+            
+        
+
+        marker_66e0c5a40b46a0a10dceceb25119562d.bindPopup(popup_5390a4910a83154de2eed06347fb8973)
+        ;
+
+        
+    
+    
+            marker_66e0c5a40b46a0a10dceceb25119562d.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d949c5149b2788e36206336e2e82e6ee = L.marker(
+                [17.4337246, 78.5006827],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_7778e26325b5f51b3b19a9ba0e51c9f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d949c5149b2788e36206336e2e82e6ee.setIcon(icon_7778e26325b5f51b3b19a9ba0e51c9f6);
+        
+    
+        var popup_3fd715d4ee2f9b000db35d0c6d487783 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60e18a13a98bbbf3d5c631d2718c7156 = $(`<div id="html_60e18a13a98bbbf3d5c631d2718c7156" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Secunderabad. Cause: other. Severity: Positive.</div>`)[0];
+                popup_3fd715d4ee2f9b000db35d0c6d487783.setContent(html_60e18a13a98bbbf3d5c631d2718c7156);
+            
+        
+
+        marker_d949c5149b2788e36206336e2e82e6ee.bindPopup(popup_3fd715d4ee2f9b000db35d0c6d487783)
+        ;
+
+        
+    
+    
+            marker_d949c5149b2788e36206336e2e82e6ee.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68a419c2f85b525cd14b1aaa3572cbad = L.marker(
+                [17.4337246, 78.5006827],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_fec9456034564d4f9b78351cfa67dd45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_68a419c2f85b525cd14b1aaa3572cbad.setIcon(icon_fec9456034564d4f9b78351cfa67dd45);
+        
+    
+        var popup_a182a203d67d3e5def849c784f758df7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_703f90ad6783dbfb42135f6f3a4853b7 = $(`<div id="html_703f90ad6783dbfb42135f6f3a4853b7" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Secunderabad. Cause: rain. Severity: Negative.</div>`)[0];
+                popup_a182a203d67d3e5def849c784f758df7.setContent(html_703f90ad6783dbfb42135f6f3a4853b7);
+            
+        
+
+        marker_68a419c2f85b525cd14b1aaa3572cbad.bindPopup(popup_a182a203d67d3e5def849c784f758df7)
+        ;
+
+        
+    
+    
+            marker_68a419c2f85b525cd14b1aaa3572cbad.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f24ad2a747c00fd9b99967e6550b155 = L.marker(
+                [17.4308362, 78.4102882],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_9c4495b3ccdf501f092d6ff5fd29cbc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3f24ad2a747c00fd9b99967e6550b155.setIcon(icon_9c4495b3ccdf501f092d6ff5fd29cbc8);
+        
+    
+        var popup_3e432b910ff0feb9f95b4d16ebca42f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd7602a741f2d59ca850b794a45e1fc2 = $(`<div id="html_dd7602a741f2d59ca850b794a45e1fc2" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Jubilee Hills. Cause: other. Severity: Positive.</div>`)[0];
+                popup_3e432b910ff0feb9f95b4d16ebca42f0.setContent(html_dd7602a741f2d59ca850b794a45e1fc2);
+            
+        
+
+        marker_3f24ad2a747c00fd9b99967e6550b155.bindPopup(popup_3e432b910ff0feb9f95b4d16ebca42f0)
+        ;
+
+        
+    
+    
+            marker_3f24ad2a747c00fd9b99967e6550b155.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52a3276936d491356f56e8daaf91f86d = L.marker(
+                [17.4177464, 78.4399014],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_6f0c79b6e2c877ae29f0d643ecbf3a2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_52a3276936d491356f56e8daaf91f86d.setIcon(icon_6f0c79b6e2c877ae29f0d643ecbf3a2d);
+        
+    
+        var popup_4b4b493a6a9abb31bb810eab52021fb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4db1e5bd20f98fcd77a723aa067f1865 = $(`<div id="html_4db1e5bd20f98fcd77a723aa067f1865" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Banjara Hills. Cause: accident. Severity: Positive.</div>`)[0];
+                popup_4b4b493a6a9abb31bb810eab52021fb3.setContent(html_4db1e5bd20f98fcd77a723aa067f1865);
+            
+        
+
+        marker_52a3276936d491356f56e8daaf91f86d.bindPopup(popup_4b4b493a6a9abb31bb810eab52021fb3)
+        ;
+
+        
+    
+    
+            marker_52a3276936d491356f56e8daaf91f86d.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61d67b67dc242aeaffb29a115e84bab4 = L.marker(
+                [17.4308362, 78.4102882],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_063f0e3121694a4b7cb70af3f5826fa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_61d67b67dc242aeaffb29a115e84bab4.setIcon(icon_063f0e3121694a4b7cb70af3f5826fa5);
+        
+    
+        var popup_db7235c7d1a814c77f134f5c8db0d825 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6f157e81a54f43ac6f891b9f665b3f1 = $(`<div id="html_a6f157e81a54f43ac6f891b9f665b3f1" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Jubilee Hills. Cause: vehicle_breakdown. Severity: Positive.</div>`)[0];
+                popup_db7235c7d1a814c77f134f5c8db0d825.setContent(html_a6f157e81a54f43ac6f891b9f665b3f1);
+            
+        
+
+        marker_61d67b67dc242aeaffb29a115e84bab4.bindPopup(popup_db7235c7d1a814c77f134f5c8db0d825)
+        ;
+
+        
+    
+    
+            marker_61d67b67dc242aeaffb29a115e84bab4.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ebdd00c9b186849d533e5c4eff5dfff = L.marker(
+                [17.4177464, 78.4399014],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_fc32c971fcb8c5ebc0d5d6aa5be486c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3ebdd00c9b186849d533e5c4eff5dfff.setIcon(icon_fc32c971fcb8c5ebc0d5d6aa5be486c7);
+        
+    
+        var popup_c6df95bd2c77796aeb5270d806cae40d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18e899b41915eb3cb4c61071d676ea17 = $(`<div id="html_18e899b41915eb3cb4c61071d676ea17" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Banjara Hills. Cause: rain. Severity: Negative.</div>`)[0];
+                popup_c6df95bd2c77796aeb5270d806cae40d.setContent(html_18e899b41915eb3cb4c61071d676ea17);
+            
+        
+
+        marker_3ebdd00c9b186849d533e5c4eff5dfff.bindPopup(popup_c6df95bd2c77796aeb5270d806cae40d)
+        ;
+
+        
+    
+    
+            marker_3ebdd00c9b186849d533e5c4eff5dfff.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa384f96214db8d9e13f071d7015d991 = L.marker(
+                [17.4337246, 78.5006827],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_8f00e056e751b412ffc6a89d554d5c6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fa384f96214db8d9e13f071d7015d991.setIcon(icon_8f00e056e751b412ffc6a89d554d5c6c);
+        
+    
+        var popup_f4205e1cfb662bdb949e72caad678a02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bc0450d87162a64a9edc60dc0874d2f = $(`<div id="html_0bc0450d87162a64a9edc60dc0874d2f" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Secunderabad. Cause: other. Severity: Negative.</div>`)[0];
+                popup_f4205e1cfb662bdb949e72caad678a02.setContent(html_0bc0450d87162a64a9edc60dc0874d2f);
+            
+        
+
+        marker_fa384f96214db8d9e13f071d7015d991.bindPopup(popup_f4205e1cfb662bdb949e72caad678a02)
+        ;
+
+        
+    
+    
+            marker_fa384f96214db8d9e13f071d7015d991.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b83425b478f5ca0905a6ed8d6f726a0b = L.marker(
+                [17.4698143, 78.3853779],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_9e8afd3387c6b1cac60f92dfa5c4705d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b83425b478f5ca0905a6ed8d6f726a0b.setIcon(icon_9e8afd3387c6b1cac60f92dfa5c4705d);
+        
+    
+        var popup_7f94b2ffc74bae0b22a18f1eb500e392 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_359e28310a35c08fe0a25170deecc093 = $(`<div id="html_359e28310a35c08fe0a25170deecc093" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Hitech City. Cause: other. Severity: Positive.</div>`)[0];
+                popup_7f94b2ffc74bae0b22a18f1eb500e392.setContent(html_359e28310a35c08fe0a25170deecc093);
+            
+        
+
+        marker_b83425b478f5ca0905a6ed8d6f726a0b.bindPopup(popup_7f94b2ffc74bae0b22a18f1eb500e392)
+        ;
+
+        
+    
+    
+            marker_b83425b478f5ca0905a6ed8d6f726a0b.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7597e8ef7302df4a7709892335e876d = L.marker(
+                [17.4308362, 78.4102882],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_1dc8789117bfd331eef71a2112dc25e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e7597e8ef7302df4a7709892335e876d.setIcon(icon_1dc8789117bfd331eef71a2112dc25e2);
+        
+    
+        var popup_1a133d6062b9875753cba6f1d5a2177a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_733d126673c335c98c2b4171367839e4 = $(`<div id="html_733d126673c335c98c2b4171367839e4" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Jubilee Hills. Cause: other. Severity: Positive.</div>`)[0];
+                popup_1a133d6062b9875753cba6f1d5a2177a.setContent(html_733d126673c335c98c2b4171367839e4);
+            
+        
+
+        marker_e7597e8ef7302df4a7709892335e876d.bindPopup(popup_1a133d6062b9875753cba6f1d5a2177a)
+        ;
+
+        
+    
+    
+            marker_e7597e8ef7302df4a7709892335e876d.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a3ce9dac52f743469ba905876fad130 = L.marker(
+                [17.4698143, 78.3853779],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_fe1bc093a5590a9486b87d3a5d85f4ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8a3ce9dac52f743469ba905876fad130.setIcon(icon_fe1bc093a5590a9486b87d3a5d85f4ca);
+        
+    
+        var popup_28f8834cb20fddce122be654163298a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0f06c54e0edf6fb1771e0024ffdd124 = $(`<div id="html_c0f06c54e0edf6fb1771e0024ffdd124" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Hitech City. Cause: rain. Severity: Negative.</div>`)[0];
+                popup_28f8834cb20fddce122be654163298a9.setContent(html_c0f06c54e0edf6fb1771e0024ffdd124);
+            
+        
+
+        marker_8a3ce9dac52f743469ba905876fad130.bindPopup(popup_28f8834cb20fddce122be654163298a9)
+        ;
+
+        
+    
+    
+            marker_8a3ce9dac52f743469ba905876fad130.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_599e4c6ae33e92a4fa7562fceba1197b = L.marker(
+                [17.4308362, 78.4102882],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_956ea56a6d7f55f7167d89051db30a4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_599e4c6ae33e92a4fa7562fceba1197b.setIcon(icon_956ea56a6d7f55f7167d89051db30a4a);
+        
+    
+        var popup_cb9d9b8dc94a88cd8fa1ce2b74bd54b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a13daa8c7ab18a9ccdb6bb81f4345331 = $(`<div id="html_a13daa8c7ab18a9ccdb6bb81f4345331" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Jubilee Hills. Cause: rain. Severity: Negative.</div>`)[0];
+                popup_cb9d9b8dc94a88cd8fa1ce2b74bd54b0.setContent(html_a13daa8c7ab18a9ccdb6bb81f4345331);
+            
+        
+
+        marker_599e4c6ae33e92a4fa7562fceba1197b.bindPopup(popup_cb9d9b8dc94a88cd8fa1ce2b74bd54b0)
+        ;
+
+        
+    
+    
+            marker_599e4c6ae33e92a4fa7562fceba1197b.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5be876f36841d34ed0f5a4fc0a436ad9 = L.marker(
+                [17.4308362, 78.4102882],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_e948ebfb7f3b7f9a97db2b8e4ebc5c1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5be876f36841d34ed0f5a4fc0a436ad9.setIcon(icon_e948ebfb7f3b7f9a97db2b8e4ebc5c1e);
+        
+    
+        var popup_cf5529fdace5721c5c94d3fe9d59bd7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7278977687c27287f0f092bec2e2ec90 = $(`<div id="html_7278977687c27287f0f092bec2e2ec90" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Jubilee Hills. Cause: road_construction. Severity: Negative.</div>`)[0];
+                popup_cf5529fdace5721c5c94d3fe9d59bd7d.setContent(html_7278977687c27287f0f092bec2e2ec90);
+            
+        
+
+        marker_5be876f36841d34ed0f5a4fc0a436ad9.bindPopup(popup_cf5529fdace5721c5c94d3fe9d59bd7d)
+        ;
+
+        
+    
+    
+            marker_5be876f36841d34ed0f5a4fc0a436ad9.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15a51cf361ebc3bb48ff9bde6308407b = L.marker(
+                [17.4436222, 78.3519638],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_a801ddb5f87d94dadf0281b2dfdcb5c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_15a51cf361ebc3bb48ff9bde6308407b.setIcon(icon_a801ddb5f87d94dadf0281b2dfdcb5c6);
+        
+    
+        var popup_1d6036a3571421f245fed089c3591158 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b347e07a94e8f42e42a1c4d4f1cc3d0 = $(`<div id="html_3b347e07a94e8f42e42a1c4d4f1cc3d0" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Gachibowli. Cause: vehicle_breakdown. Severity: Positive.</div>`)[0];
+                popup_1d6036a3571421f245fed089c3591158.setContent(html_3b347e07a94e8f42e42a1c4d4f1cc3d0);
+            
+        
+
+        marker_15a51cf361ebc3bb48ff9bde6308407b.bindPopup(popup_1d6036a3571421f245fed089c3591158)
+        ;
+
+        
+    
+    
+            marker_15a51cf361ebc3bb48ff9bde6308407b.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e7ef118e3e7ea94da8485168205f6e7 = L.marker(
+                [17.4436222, 78.3519638],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_3ee1bfb9fafeae169d7f27760d4bdccd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6e7ef118e3e7ea94da8485168205f6e7.setIcon(icon_3ee1bfb9fafeae169d7f27760d4bdccd);
+        
+    
+        var popup_5279d9ad84b9061a5a0c0f10d00d18a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f2a433f36a8fd38734b85f1ccd6eb36 = $(`<div id="html_9f2a433f36a8fd38734b85f1ccd6eb36" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Gachibowli. Cause: other. Severity: Positive.</div>`)[0];
+                popup_5279d9ad84b9061a5a0c0f10d00d18a6.setContent(html_9f2a433f36a8fd38734b85f1ccd6eb36);
+            
+        
+
+        marker_6e7ef118e3e7ea94da8485168205f6e7.bindPopup(popup_5279d9ad84b9061a5a0c0f10d00d18a6)
+        ;
+
+        
+    
+    
+            marker_6e7ef118e3e7ea94da8485168205f6e7.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4608b8a0e7f48e19f5b2ecfa82899d55 = L.marker(
+                [17.4337246, 78.5006827],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_737f423582c5cba054aef51fe5436c40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4608b8a0e7f48e19f5b2ecfa82899d55.setIcon(icon_737f423582c5cba054aef51fe5436c40);
+        
+    
+        var popup_6e8bfe76465cfae1aa4b61ef97f24cdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2e9658a2297371e87bb45345d236f9c = $(`<div id="html_d2e9658a2297371e87bb45345d236f9c" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Secunderabad. Cause: vehicle_breakdown. Severity: Positive.</div>`)[0];
+                popup_6e8bfe76465cfae1aa4b61ef97f24cdb.setContent(html_d2e9658a2297371e87bb45345d236f9c);
+            
+        
+
+        marker_4608b8a0e7f48e19f5b2ecfa82899d55.bindPopup(popup_6e8bfe76465cfae1aa4b61ef97f24cdb)
+        ;
+
+        
+    
+    
+            marker_4608b8a0e7f48e19f5b2ecfa82899d55.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f74ef5adcfc38c66437064e8d19f086 = L.marker(
+                [17.4698143, 78.3853779],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_74f8960a000542a99e1c6726579ac3a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9f74ef5adcfc38c66437064e8d19f086.setIcon(icon_74f8960a000542a99e1c6726579ac3a7);
+        
+    
+        var popup_c8752ab69f0e0f1b237bb6a4f378278d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1f6d9f22a9dcaad165a10986509befa = $(`<div id="html_e1f6d9f22a9dcaad165a10986509befa" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Hitech City. Cause: other. Severity: Negative.</div>`)[0];
+                popup_c8752ab69f0e0f1b237bb6a4f378278d.setContent(html_e1f6d9f22a9dcaad165a10986509befa);
+            
+        
+
+        marker_9f74ef5adcfc38c66437064e8d19f086.bindPopup(popup_c8752ab69f0e0f1b237bb6a4f378278d)
+        ;
+
+        
+    
+    
+            marker_9f74ef5adcfc38c66437064e8d19f086.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7ced5f4a7d14968686a3cee313b9b03 = L.marker(
+                [17.4177464, 78.4399014],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_9f5be75256f5b9ca239361f11809d700 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d7ced5f4a7d14968686a3cee313b9b03.setIcon(icon_9f5be75256f5b9ca239361f11809d700);
+        
+    
+        var popup_e05bdb34a38ac270f0518feb626795bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aeaeb9d1d7d04bc2912da90e4ddbc609 = $(`<div id="html_aeaeb9d1d7d04bc2912da90e4ddbc609" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Banjara Hills. Cause: other. Severity: Positive.</div>`)[0];
+                popup_e05bdb34a38ac270f0518feb626795bd.setContent(html_aeaeb9d1d7d04bc2912da90e4ddbc609);
+            
+        
+
+        marker_d7ced5f4a7d14968686a3cee313b9b03.bindPopup(popup_e05bdb34a38ac270f0518feb626795bd)
+        ;
+
+        
+    
+    
+            marker_d7ced5f4a7d14968686a3cee313b9b03.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_807f02f17f8469c6ece74ecd8451c676 = L.marker(
+                [17.4436222, 78.3519638],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_850dc0a9569b148f647de456594a8753 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_807f02f17f8469c6ece74ecd8451c676.setIcon(icon_850dc0a9569b148f647de456594a8753);
+        
+    
+        var popup_27b3b58cdbebe640a5a65980d8b48be5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9f13b24068a982554b183c03da418c0 = $(`<div id="html_d9f13b24068a982554b183c03da418c0" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Gachibowli. Cause: checkpoint. Severity: Positive.</div>`)[0];
+                popup_27b3b58cdbebe640a5a65980d8b48be5.setContent(html_d9f13b24068a982554b183c03da418c0);
+            
+        
+
+        marker_807f02f17f8469c6ece74ecd8451c676.bindPopup(popup_27b3b58cdbebe640a5a65980d8b48be5)
+        ;
+
+        
+    
+    
+            marker_807f02f17f8469c6ece74ecd8451c676.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f60031b04c283f5ab23040278c5f0228 = L.marker(
+                [17.4177464, 78.4399014],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_4044d693b1ca84c72f71e199063db785 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f60031b04c283f5ab23040278c5f0228.setIcon(icon_4044d693b1ca84c72f71e199063db785);
+        
+    
+        var popup_7c1345d9f185094572622e8a436d615c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a1f946f960a1d4862ce597db2a93874 = $(`<div id="html_0a1f946f960a1d4862ce597db2a93874" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Banjara Hills. Cause: vehicle_breakdown. Severity: Positive.</div>`)[0];
+                popup_7c1345d9f185094572622e8a436d615c.setContent(html_0a1f946f960a1d4862ce597db2a93874);
+            
+        
+
+        marker_f60031b04c283f5ab23040278c5f0228.bindPopup(popup_7c1345d9f185094572622e8a436d615c)
+        ;
+
+        
+    
+    
+            marker_f60031b04c283f5ab23040278c5f0228.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f732c4ce8de48d23274a019ea1f7bcd9 = L.marker(
+                [17.4177464, 78.4399014],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_e3ac2ed1914d4e4c0c2e4a3d5e3ab290 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f732c4ce8de48d23274a019ea1f7bcd9.setIcon(icon_e3ac2ed1914d4e4c0c2e4a3d5e3ab290);
+        
+    
+        var popup_b402b11b6d6d415e95a55eaeee429754 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9731e8f939231784484934626f085f0 = $(`<div id="html_d9731e8f939231784484934626f085f0" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Banjara Hills. Cause: other. Severity: Positive.</div>`)[0];
+                popup_b402b11b6d6d415e95a55eaeee429754.setContent(html_d9731e8f939231784484934626f085f0);
+            
+        
+
+        marker_f732c4ce8de48d23274a019ea1f7bcd9.bindPopup(popup_b402b11b6d6d415e95a55eaeee429754)
+        ;
+
+        
+    
+    
+            marker_f732c4ce8de48d23274a019ea1f7bcd9.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4557a9047e84b91bf4f651d2978ad1e3 = L.marker(
+                [17.4698143, 78.3853779],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_fedf90efc307ae12837a931031ce7af4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4557a9047e84b91bf4f651d2978ad1e3.setIcon(icon_fedf90efc307ae12837a931031ce7af4);
+        
+    
+        var popup_98f8f6fcedd1be7f5609561d492adb8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c6eaaf92cedf9bc19cf5d0a93eed059 = $(`<div id="html_9c6eaaf92cedf9bc19cf5d0a93eed059" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Hitech City. Cause: other. Severity: Positive.</div>`)[0];
+                popup_98f8f6fcedd1be7f5609561d492adb8a.setContent(html_9c6eaaf92cedf9bc19cf5d0a93eed059);
+            
+        
+
+        marker_4557a9047e84b91bf4f651d2978ad1e3.bindPopup(popup_98f8f6fcedd1be7f5609561d492adb8a)
+        ;
+
+        
+    
+    
+            marker_4557a9047e84b91bf4f651d2978ad1e3.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee4a452af8f8b84be2cec5e38e1e970d = L.marker(
+                [17.4337246, 78.5006827],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_dadcd10100fb0c3acada9f4261b10748 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ee4a452af8f8b84be2cec5e38e1e970d.setIcon(icon_dadcd10100fb0c3acada9f4261b10748);
+        
+    
+        var popup_0c12b9de645a01b38a175d977f61520c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab67e9970ee37302258a5852a997f86a = $(`<div id="html_ab67e9970ee37302258a5852a997f86a" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Secunderabad. Cause: accident. Severity: Positive.</div>`)[0];
+                popup_0c12b9de645a01b38a175d977f61520c.setContent(html_ab67e9970ee37302258a5852a997f86a);
+            
+        
+
+        marker_ee4a452af8f8b84be2cec5e38e1e970d.bindPopup(popup_0c12b9de645a01b38a175d977f61520c)
+        ;
+
+        
+    
+    
+            marker_ee4a452af8f8b84be2cec5e38e1e970d.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c564f5a2ddf654b7f91191aee9ff0734 = L.marker(
+                [17.4698143, 78.3853779],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_8e8eff4d674eefcaf1ac781a2896d523 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c564f5a2ddf654b7f91191aee9ff0734.setIcon(icon_8e8eff4d674eefcaf1ac781a2896d523);
+        
+    
+        var popup_94f019dd0ce57681e7c64e85433c93e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_637bd54c4a00afeb4c396ce5005c3ef2 = $(`<div id="html_637bd54c4a00afeb4c396ce5005c3ef2" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Hitech City. Cause: checkpoint. Severity: Positive.</div>`)[0];
+                popup_94f019dd0ce57681e7c64e85433c93e3.setContent(html_637bd54c4a00afeb4c396ce5005c3ef2);
+            
+        
+
+        marker_c564f5a2ddf654b7f91191aee9ff0734.bindPopup(popup_94f019dd0ce57681e7c64e85433c93e3)
+        ;
+
+        
+    
+    
+            marker_c564f5a2ddf654b7f91191aee9ff0734.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1dabbfcc6252ab95a474c296296e02f = L.marker(
+                [17.4177464, 78.4399014],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_3c350560ca482a85c1d3d51d6018c4b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d1dabbfcc6252ab95a474c296296e02f.setIcon(icon_3c350560ca482a85c1d3d51d6018c4b2);
+        
+    
+        var popup_1aa255fa64de7e25d630cb2fd967ddbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f0340882d695b04ba6d339809a9dfc4 = $(`<div id="html_6f0340882d695b04ba6d339809a9dfc4" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Banjara Hills. Cause: other. Severity: Negative.</div>`)[0];
+                popup_1aa255fa64de7e25d630cb2fd967ddbc.setContent(html_6f0340882d695b04ba6d339809a9dfc4);
+            
+        
+
+        marker_d1dabbfcc6252ab95a474c296296e02f.bindPopup(popup_1aa255fa64de7e25d630cb2fd967ddbc)
+        ;
+
+        
+    
+    
+            marker_d1dabbfcc6252ab95a474c296296e02f.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1501b4ee1cad1f8aeaaf23703d9996bd = L.marker(
+                [17.4698143, 78.3853779],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_94c27397908fe3b3d03c36ccaa5cb91a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1501b4ee1cad1f8aeaaf23703d9996bd.setIcon(icon_94c27397908fe3b3d03c36ccaa5cb91a);
+        
+    
+        var popup_cceef2ac94952fabf1a0ff83cd377ceb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4c45a5025858b20c4316e2eb593684d = $(`<div id="html_c4c45a5025858b20c4316e2eb593684d" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Hitech City. Cause: vehicle_breakdown. Severity: Positive.</div>`)[0];
+                popup_cceef2ac94952fabf1a0ff83cd377ceb.setContent(html_c4c45a5025858b20c4316e2eb593684d);
+            
+        
+
+        marker_1501b4ee1cad1f8aeaaf23703d9996bd.bindPopup(popup_cceef2ac94952fabf1a0ff83cd377ceb)
+        ;
+
+        
+    
+    
+            marker_1501b4ee1cad1f8aeaaf23703d9996bd.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ec307baf13a14cc8f1bab02183bbe4e = L.marker(
+                [17.4308362, 78.4102882],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_16afbb42f3d0fdb1ac1836ed9f404cf8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3ec307baf13a14cc8f1bab02183bbe4e.setIcon(icon_16afbb42f3d0fdb1ac1836ed9f404cf8);
+        
+    
+        var popup_43c3c6044eba41277142aeeb05224d58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3ceae40eddaacae39809c04212066e9 = $(`<div id="html_c3ceae40eddaacae39809c04212066e9" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Jubilee Hills. Cause: accident. Severity: Positive.</div>`)[0];
+                popup_43c3c6044eba41277142aeeb05224d58.setContent(html_c3ceae40eddaacae39809c04212066e9);
+            
+        
+
+        marker_3ec307baf13a14cc8f1bab02183bbe4e.bindPopup(popup_43c3c6044eba41277142aeeb05224d58)
+        ;
+
+        
+    
+    
+            marker_3ec307baf13a14cc8f1bab02183bbe4e.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55ea79207cd834797054bd44920128dd = L.marker(
+                [17.4177464, 78.4399014],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_67c7090acddcebbfbcef60bcde07beeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_55ea79207cd834797054bd44920128dd.setIcon(icon_67c7090acddcebbfbcef60bcde07beeb);
+        
+    
+        var popup_ae2ed6ad8e54690ab1218c7b6bb7eca3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b833b6d4a12d062eaa79160c6f3be2d = $(`<div id="html_4b833b6d4a12d062eaa79160c6f3be2d" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Banjara Hills. Cause: checkpoint. Severity: Positive.</div>`)[0];
+                popup_ae2ed6ad8e54690ab1218c7b6bb7eca3.setContent(html_4b833b6d4a12d062eaa79160c6f3be2d);
+            
+        
+
+        marker_55ea79207cd834797054bd44920128dd.bindPopup(popup_ae2ed6ad8e54690ab1218c7b6bb7eca3)
+        ;
+
+        
+    
+    
+            marker_55ea79207cd834797054bd44920128dd.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc5aba58ca54a986b8befce961fb3c86 = L.marker(
+                [17.4177464, 78.4399014],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_cfcc33c392dc501c650cd6113a3623d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fc5aba58ca54a986b8befce961fb3c86.setIcon(icon_cfcc33c392dc501c650cd6113a3623d0);
+        
+    
+        var popup_b2fbbeb8e82f6c4674d32dc42efa6c75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9761c12cb103822847302850040b8823 = $(`<div id="html_9761c12cb103822847302850040b8823" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Banjara Hills. Cause: other. Severity: Positive.</div>`)[0];
+                popup_b2fbbeb8e82f6c4674d32dc42efa6c75.setContent(html_9761c12cb103822847302850040b8823);
+            
+        
+
+        marker_fc5aba58ca54a986b8befce961fb3c86.bindPopup(popup_b2fbbeb8e82f6c4674d32dc42efa6c75)
+        ;
+
+        
+    
+    
+            marker_fc5aba58ca54a986b8befce961fb3c86.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07e36f0e349b00670ca2c46ca06875d5 = L.marker(
+                [17.4337246, 78.5006827],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_ccdf46c56cd4647f4403039669e972e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_07e36f0e349b00670ca2c46ca06875d5.setIcon(icon_ccdf46c56cd4647f4403039669e972e0);
+        
+    
+        var popup_289e4f937d91436c073354592e854276 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdc94249e2dfc5a1fbddfce482e098c3 = $(`<div id="html_bdc94249e2dfc5a1fbddfce482e098c3" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Secunderabad. Cause: road_construction. Severity: Negative.</div>`)[0];
+                popup_289e4f937d91436c073354592e854276.setContent(html_bdc94249e2dfc5a1fbddfce482e098c3);
+            
+        
+
+        marker_07e36f0e349b00670ca2c46ca06875d5.bindPopup(popup_289e4f937d91436c073354592e854276)
+        ;
+
+        
+    
+    
+            marker_07e36f0e349b00670ca2c46ca06875d5.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55cd58b3bf00a4bbbb3537869c4453d6 = L.marker(
+                [17.4436222, 78.3519638],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_670ce039a45095d7ee99b9e41cbea0ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_55cd58b3bf00a4bbbb3537869c4453d6.setIcon(icon_670ce039a45095d7ee99b9e41cbea0ca);
+        
+    
+        var popup_75fe7bd27357900910a03feda3372d71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_339b3a91c37cb4c6a1dc4a64a4c092c2 = $(`<div id="html_339b3a91c37cb4c6a1dc4a64a4c092c2" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Gachibowli. Cause: other. Severity: Negative.</div>`)[0];
+                popup_75fe7bd27357900910a03feda3372d71.setContent(html_339b3a91c37cb4c6a1dc4a64a4c092c2);
+            
+        
+
+        marker_55cd58b3bf00a4bbbb3537869c4453d6.bindPopup(popup_75fe7bd27357900910a03feda3372d71)
+        ;
+
+        
+    
+    
+            marker_55cd58b3bf00a4bbbb3537869c4453d6.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cc6a58208c01cc74f3d9a9392cb0a9c = L.marker(
+                [17.4698143, 78.3853779],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_e00adfb80a633ebe8cc6d70ff6485999 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6cc6a58208c01cc74f3d9a9392cb0a9c.setIcon(icon_e00adfb80a633ebe8cc6d70ff6485999);
+        
+    
+        var popup_76ee287a7f5a3a9ec2231c11c3c7177e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b10421ffb926a3e7b7731c3c41e5e0fa = $(`<div id="html_b10421ffb926a3e7b7731c3c41e5e0fa" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Hitech City. Cause: other. Severity: Positive.</div>`)[0];
+                popup_76ee287a7f5a3a9ec2231c11c3c7177e.setContent(html_b10421ffb926a3e7b7731c3c41e5e0fa);
+            
+        
+
+        marker_6cc6a58208c01cc74f3d9a9392cb0a9c.bindPopup(popup_76ee287a7f5a3a9ec2231c11c3c7177e)
+        ;
+
+        
+    
+    
+            marker_6cc6a58208c01cc74f3d9a9392cb0a9c.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9429192d56c4b2d61bc199352cf73557 = L.marker(
+                [17.4436222, 78.3519638],
+                {}
+            ).addTo(map_9ef4fd1c1d2ffc9d123cf344b1979953);
+        
+    
+            var icon_41e5c486c9f6dea30c77a4c2e6c61746 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9429192d56c4b2d61bc199352cf73557.setIcon(icon_41e5c486c9f6dea30c77a4c2e6c61746);
+        
+    
+        var popup_7c603820c8eb8e17c6ec567436b02a4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dd16e9ebc59cc3954675edd3a38a514 = $(`<div id="html_0dd16e9ebc59cc3954675edd3a38a514" style="width: 100.0%; height: 100.0%;">Traffic alert in Hyderabad near Gachibowli. Cause: accident. Severity: Positive.</div>`)[0];
+                popup_7c603820c8eb8e17c6ec567436b02a4d.setContent(html_0dd16e9ebc59cc3954675edd3a38a514);
+            
+        
+
+        marker_9429192d56c4b2d61bc199352cf73557.bindPopup(popup_7c603820c8eb8e17c6ec567436b02a4d)
+        ;
+
+        
+    
+    
+            marker_9429192d56c4b2d61bc199352cf73557.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

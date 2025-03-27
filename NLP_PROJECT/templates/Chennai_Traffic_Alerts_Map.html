@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5171532661c9921a0a75d88cef7026bc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5171532661c9921a0a75d88cef7026bc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5171532661c9921a0a75d88cef7026bc = L.map(
+                "map_5171532661c9921a0a75d88cef7026bc",
+                {
+                    center: [12.950760008333333, 80.25920904333334],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0950906ee997850c259c71b67c18c786 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0950906ee997850c259c71b67c18c786.addTo(map_5171532661c9921a0a75d88cef7026bc);
+        
+    
+            var marker_3b90a91c17c899f5e6810266eac65359 = L.marker(
+                [13.05327515, 80.28328873],
+                {}
+            ).addTo(map_5171532661c9921a0a75d88cef7026bc);
+        
+    
+            var icon_211cbe229203390923e77e98a3d5e605 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3b90a91c17c899f5e6810266eac65359.setIcon(icon_211cbe229203390923e77e98a3d5e605);
+        
+    
+        var popup_befdc87294ccc859fbcd9dd91d4378a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9794e5db48cb4cf86ef048b732e45cd = $(`<div id="html_c9794e5db48cb4cf86ef048b732e45cd" style="width: 100.0%; height: 100.0%;">Traffic alert in Chennai near Marina Beach. Cause: other. Severity: Negative.</div>`)[0];
+                popup_befdc87294ccc859fbcd9dd91d4378a4.setContent(html_c9794e5db48cb4cf86ef048b732e45cd);
+            
+        
+
+        marker_3b90a91c17c899f5e6810266eac65359.bindPopup(popup_befdc87294ccc859fbcd9dd91d4378a4)
+        ;
+
+        
+    
+    
+            marker_3b90a91c17c899f5e6810266eac65359.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b5ac06627798c172d8f19e52b5acf2d = L.marker(
+                [13.0338, 80.2696],
+                {}
+            ).addTo(map_5171532661c9921a0a75d88cef7026bc);
+        
+    
+            var icon_6097edd597aa9cf938d5dfe760169de4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5b5ac06627798c172d8f19e52b5acf2d.setIcon(icon_6097edd597aa9cf938d5dfe760169de4);
+        
+    
+        var popup_12dc7604f451de46a16039e0ca408666 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac8927ea70ad30bbb3e80af7d8b9947a = $(`<div id="html_ac8927ea70ad30bbb3e80af7d8b9947a" style="width: 100.0%; height: 100.0%;">Traffic alert in Chennai near unknown location. Cause: other. Severity: Neutral.</div>`)[0];
+                popup_12dc7604f451de46a16039e0ca408666.setContent(html_ac8927ea70ad30bbb3e80af7d8b9947a);
+            
+        
+
+        marker_5b5ac06627798c172d8f19e52b5acf2d.bindPopup(popup_12dc7604f451de46a16039e0ca408666)
+        ;
+
+        
+    
+    
+            marker_5b5ac06627798c172d8f19e52b5acf2d.bindTooltip(
+                `<div>
+                     Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_940bd67e97fbb909d73db23706d3ce8d = L.marker(
+                [13.0049, 80.2379],
+                {}
+            ).addTo(map_5171532661c9921a0a75d88cef7026bc);
+        
+    
+            var icon_ae49960b2555dd90b720a541caaa319d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_940bd67e97fbb909d73db23706d3ce8d.setIcon(icon_ae49960b2555dd90b720a541caaa319d);
+        
+    
+        var popup_4e5c6e3c11153ccddb273c030f286735 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d429419cda64e44fca9e0eac7ad58f1f = $(`<div id="html_d429419cda64e44fca9e0eac7ad58f1f" style="width: 100.0%; height: 100.0%;">Traffic alert in Chennai near unknown location. Cause: other. Severity: Negative.</div>`)[0];
+                popup_4e5c6e3c11153ccddb273c030f286735.setContent(html_d429419cda64e44fca9e0eac7ad58f1f);
+            
+        
+
+        marker_940bd67e97fbb909d73db23706d3ce8d.bindPopup(popup_4e5c6e3c11153ccddb273c030f286735)
+        ;
+
+        
+    
+    
+            marker_940bd67e97fbb909d73db23706d3ce8d.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bacc90615b1c734b3681818a59e710a = L.marker(
+                [12.8233, 80.2404],
+                {}
+            ).addTo(map_5171532661c9921a0a75d88cef7026bc);
+        
+    
+            var icon_a644af9fde0a8badeff4591ca5c20e33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3bacc90615b1c734b3681818a59e710a.setIcon(icon_a644af9fde0a8badeff4591ca5c20e33);
+        
+    
+        var popup_1023bb24467a930f6a537ee3cd93e3af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86f2a3eb44600deafd1da372158bcea8 = $(`<div id="html_86f2a3eb44600deafd1da372158bcea8" style="width: 100.0%; height: 100.0%;">Traffic alert in Chennai near unknown location. Cause: other. Severity: Neutral.</div>`)[0];
+                popup_1023bb24467a930f6a537ee3cd93e3af.setContent(html_86f2a3eb44600deafd1da372158bcea8);
+            
+        
+
+        marker_3bacc90615b1c734b3681818a59e710a.bindPopup(popup_1023bb24467a930f6a537ee3cd93e3af)
+        ;
+
+        
+    
+    
+            marker_3bacc90615b1c734b3681818a59e710a.bindTooltip(
+                `<div>
+                     Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e35fc9111f528a2e13887dd3db5e0acb = L.marker(
+                [12.9989, 80.2718],
+                {}
+            ).addTo(map_5171532661c9921a0a75d88cef7026bc);
+        
+    
+            var icon_e05dcc6b2bbeb12565f328d34b2924e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e35fc9111f528a2e13887dd3db5e0acb.setIcon(icon_e05dcc6b2bbeb12565f328d34b2924e0);
+        
+    
+        var popup_d1712aa1a90e2f82b7da677c4a4d5626 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9efa94936c8ba2f6ef5517137cdb5546 = $(`<div id="html_9efa94936c8ba2f6ef5517137cdb5546" style="width: 100.0%; height: 100.0%;">Traffic alert in Chennai near unknown location. Cause: other. Severity: Positive.</div>`)[0];
+                popup_d1712aa1a90e2f82b7da677c4a4d5626.setContent(html_9efa94936c8ba2f6ef5517137cdb5546);
+            
+        
+
+        marker_e35fc9111f528a2e13887dd3db5e0acb.bindPopup(popup_d1712aa1a90e2f82b7da677c4a4d5626)
+        ;
+
+        
+    
+    
+            marker_e35fc9111f528a2e13887dd3db5e0acb.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eacef73fe701e88db75f036f87ccee82 = L.marker(
+                [12.7903849, 80.25226553],
+                {}
+            ).addTo(map_5171532661c9921a0a75d88cef7026bc);
+        
+    
+            var icon_e7c11b03288041c20dd21c76133bdf28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eacef73fe701e88db75f036f87ccee82.setIcon(icon_e7c11b03288041c20dd21c76133bdf28);
+        
+    
+        var popup_988b82b91cfb6bf9e5d50f648d1835c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ed38670cba1b09403c205ce00f48854 = $(`<div id="html_5ed38670cba1b09403c205ce00f48854" style="width: 100.0%; height: 100.0%;">Traffic alert in Chennai near Covelong Beach. Cause: other. Severity: Positive.</div>`)[0];
+                popup_988b82b91cfb6bf9e5d50f648d1835c3.setContent(html_5ed38670cba1b09403c205ce00f48854);
+            
+        
+
+        marker_eacef73fe701e88db75f036f87ccee82.bindPopup(popup_988b82b91cfb6bf9e5d50f648d1835c3)
+        ;
+
+        
+    
+    
+            marker_eacef73fe701e88db75f036f87ccee82.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

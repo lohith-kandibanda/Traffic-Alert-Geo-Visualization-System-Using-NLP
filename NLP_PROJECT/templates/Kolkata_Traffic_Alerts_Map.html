@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9ba4dac07c68b4788743c1595b3a61c8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9ba4dac07c68b4788743c1595b3a61c8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9ba4dac07c68b4788743c1595b3a61c8 = L.map(
+                "map_9ba4dac07c68b4788743c1595b3a61c8",
+                {
+                    center: [22.591826899999997, 88.3695477],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bed51d2ff779e69ae39e55a95edca7f1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_bed51d2ff779e69ae39e55a95edca7f1.addTo(map_9ba4dac07c68b4788743c1595b3a61c8);
+        
+    
+            var marker_ade715c87eae6e53b1d3a090a0e9d703 = L.marker(
+                [22.5448, 88.3426],
+                {}
+            ).addTo(map_9ba4dac07c68b4788743c1595b3a61c8);
+        
+    
+            var icon_91d59e16c45a4096d45db37c9d54c7d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ade715c87eae6e53b1d3a090a0e9d703.setIcon(icon_91d59e16c45a4096d45db37c9d54c7d3);
+        
+    
+        var popup_04140944d0c3b0e588e00358e69bd988 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1df36535448af4d8b96ffb93b984b8ee = $(`<div id="html_1df36535448af4d8b96ffb93b984b8ee" style="width: 100.0%; height: 100.0%;">Traffic alert in Kolkata near unknown location. Cause: other. Severity: Positive.</div>`)[0];
+                popup_04140944d0c3b0e588e00358e69bd988.setContent(html_1df36535448af4d8b96ffb93b984b8ee);
+            
+        
+
+        marker_ade715c87eae6e53b1d3a090a0e9d703.bindPopup(popup_04140944d0c3b0e588e00358e69bd988)
+        ;
+
+        
+    
+    
+            marker_ade715c87eae6e53b1d3a090a0e9d703.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b4a475ddc48008c53a1bdba3d8d2eef = L.marker(
+                [22.5852, 88.3468],
+                {}
+            ).addTo(map_9ba4dac07c68b4788743c1595b3a61c8);
+        
+    
+            var icon_2a266dae877d30f982136b85ec6508a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0b4a475ddc48008c53a1bdba3d8d2eef.setIcon(icon_2a266dae877d30f982136b85ec6508a5);
+        
+    
+        var popup_fc973f1d8f71954bea7dc4fd85ba6a3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cb42da4236a9122de3aa3fad188ce17 = $(`<div id="html_7cb42da4236a9122de3aa3fad188ce17" style="width: 100.0%; height: 100.0%;">Traffic alert in Kolkata near unknown location. Cause: other. Severity: Neutral.</div>`)[0];
+                popup_fc973f1d8f71954bea7dc4fd85ba6a3c.setContent(html_7cb42da4236a9122de3aa3fad188ce17);
+            
+        
+
+        marker_0b4a475ddc48008c53a1bdba3d8d2eef.bindPopup(popup_fc973f1d8f71954bea7dc4fd85ba6a3c)
+        ;
+
+        
+    
+    
+            marker_0b4a475ddc48008c53a1bdba3d8d2eef.bindTooltip(
+                `<div>
+                     Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c29551b2f73d3e4fb2192a35b94a885c = L.marker(
+                [22.6573, 88.3624],
+                {}
+            ).addTo(map_9ba4dac07c68b4788743c1595b3a61c8);
+        
+    
+            var icon_d874acc5e011f0f7a2ad378e5b1c8ee3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c29551b2f73d3e4fb2192a35b94a885c.setIcon(icon_d874acc5e011f0f7a2ad378e5b1c8ee3);
+        
+    
+        var popup_9701334b8a4a9d6c8af1136cd99a3449 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_325c49a7ff115ffa6421eb1a3248b14f = $(`<div id="html_325c49a7ff115ffa6421eb1a3248b14f" style="width: 100.0%; height: 100.0%;">Traffic alert in Kolkata near unknown location. Cause: other. Severity: Neutral.</div>`)[0];
+                popup_9701334b8a4a9d6c8af1136cd99a3449.setContent(html_325c49a7ff115ffa6421eb1a3248b14f);
+            
+        
+
+        marker_c29551b2f73d3e4fb2192a35b94a885c.bindPopup(popup_9701334b8a4a9d6c8af1136cd99a3449)
+        ;
+
+        
+    
+    
+            marker_c29551b2f73d3e4fb2192a35b94a885c.bindTooltip(
+                `<div>
+                     Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae11c0711e24a22f50a414ff4fb355f2 = L.marker(
+                [22.6327, 88.3564],
+                {}
+            ).addTo(map_9ba4dac07c68b4788743c1595b3a61c8);
+        
+    
+            var icon_d52eae4ed91608e3cf47bf77401d46f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ae11c0711e24a22f50a414ff4fb355f2.setIcon(icon_d52eae4ed91608e3cf47bf77401d46f5);
+        
+    
+        var popup_4f3c327af0e26d273e13fc1483bebb58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31cb0e61a19b0f60c737a9abe062560a = $(`<div id="html_31cb0e61a19b0f60c737a9abe062560a" style="width: 100.0%; height: 100.0%;">Traffic alert in Kolkata near unknown location. Cause: other. Severity: Positive.</div>`)[0];
+                popup_4f3c327af0e26d273e13fc1483bebb58.setContent(html_31cb0e61a19b0f60c737a9abe062560a);
+            
+        
+
+        marker_ae11c0711e24a22f50a414ff4fb355f2.bindPopup(popup_4f3c327af0e26d273e13fc1483bebb58)
+        ;
+
+        
+    
+    
+            marker_ae11c0711e24a22f50a414ff4fb355f2.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4652d94c23888733827d0b0a2ee4c3c6 = L.marker(
+                [22.5553, 88.3312],
+                {}
+            ).addTo(map_9ba4dac07c68b4788743c1595b3a61c8);
+        
+    
+            var icon_9c1d346e8aff660a008f07390f94d76a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4652d94c23888733827d0b0a2ee4c3c6.setIcon(icon_9c1d346e8aff660a008f07390f94d76a);
+        
+    
+        var popup_187d8c42ec74eec3124451b3c8a15e51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_808c1d64dfea68a6fbf33e5773d64a78 = $(`<div id="html_808c1d64dfea68a6fbf33e5773d64a78" style="width: 100.0%; height: 100.0%;">Traffic alert in Kolkata near unknown location. Cause: other. Severity: Positive.</div>`)[0];
+                popup_187d8c42ec74eec3124451b3c8a15e51.setContent(html_808c1d64dfea68a6fbf33e5773d64a78);
+            
+        
+
+        marker_4652d94c23888733827d0b0a2ee4c3c6.bindPopup(popup_187d8c42ec74eec3124451b3c8a15e51)
+        ;
+
+        
+    
+    
+            marker_4652d94c23888733827d0b0a2ee4c3c6.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1389942421afd7328ced0f97e894b1be = L.marker(
+                [22.6004, 88.4706],
+                {}
+            ).addTo(map_9ba4dac07c68b4788743c1595b3a61c8);
+        
+    
+            var icon_607d6cef1bc86e13aa37e8f636b7de73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1389942421afd7328ced0f97e894b1be.setIcon(icon_607d6cef1bc86e13aa37e8f636b7de73);
+        
+    
+        var popup_ba0fd3553b21a6e2ee82b1d0b43490e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76a66a017f1cd7c8d8baf763a5868b9e = $(`<div id="html_76a66a017f1cd7c8d8baf763a5868b9e" style="width: 100.0%; height: 100.0%;">Traffic alert in Kolkata near unknown location. Cause: other. Severity: Positive.</div>`)[0];
+                popup_ba0fd3553b21a6e2ee82b1d0b43490e1.setContent(html_76a66a017f1cd7c8d8baf763a5868b9e);
+            
+        
+
+        marker_1389942421afd7328ced0f97e894b1be.bindPopup(popup_ba0fd3553b21a6e2ee82b1d0b43490e1)
+        ;
+
+        
+    
+    
+            marker_1389942421afd7328ced0f97e894b1be.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccf525b6ebf6060c0bb78109849cc654 = L.marker(
+                [22.57687, 88.35047],
+                {}
+            ).addTo(map_9ba4dac07c68b4788743c1595b3a61c8);
+        
+    
+            var icon_a5c2702122ff764fb8d56e5496537096 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ccf525b6ebf6060c0bb78109849cc654.setIcon(icon_a5c2702122ff764fb8d56e5496537096);
+        
+    
+        var popup_330bcb4c3b25e899a1babec560e5d87d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57e3762c1d21aad97ead6c0012f427db = $(`<div id="html_57e3762c1d21aad97ead6c0012f427db" style="width: 100.0%; height: 100.0%;">Traffic alert in Kolkata near unknown location. Cause: other. Severity: Neutral.</div>`)[0];
+                popup_330bcb4c3b25e899a1babec560e5d87d.setContent(html_57e3762c1d21aad97ead6c0012f427db);
+            
+        
+
+        marker_ccf525b6ebf6060c0bb78109849cc654.bindPopup(popup_330bcb4c3b25e899a1babec560e5d87d)
+        ;
+
+        
+    
+    
+            marker_ccf525b6ebf6060c0bb78109849cc654.bindTooltip(
+                `<div>
+                     Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f6b4a0d728a75c618feacf9c8ca280e = L.marker(
+                [22.6007606, 88.3623702],
+                {}
+            ).addTo(map_9ba4dac07c68b4788743c1595b3a61c8);
+        
+    
+            var icon_72ba7b5896339867b7dbec144b40ae76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7f6b4a0d728a75c618feacf9c8ca280e.setIcon(icon_72ba7b5896339867b7dbec144b40ae76);
+        
+    
+        var popup_936dc3b8b2363ae71e190b8e7cb5c2d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fa9eda7abaa0da0882d5f925c4cb3c3 = $(`<div id="html_9fa9eda7abaa0da0882d5f925c4cb3c3" style="width: 100.0%; height: 100.0%;">Traffic alert in Kolkata near Kumartuli. Cause: other. Severity: Positive.</div>`)[0];
+                popup_936dc3b8b2363ae71e190b8e7cb5c2d1.setContent(html_9fa9eda7abaa0da0882d5f925c4cb3c3);
+            
+        
+
+        marker_7f6b4a0d728a75c618feacf9c8ca280e.bindPopup(popup_936dc3b8b2363ae71e190b8e7cb5c2d1)
+        ;
+
+        
+    
+    
+            marker_7f6b4a0d728a75c618feacf9c8ca280e.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bea69b71c034b1658680fec5cd49e59 = L.marker(
+                [22.5731115, 88.4030891],
+                {}
+            ).addTo(map_9ba4dac07c68b4788743c1595b3a61c8);
+        
+    
+            var icon_19f8fed4f43ebe58bfc24d9dab91dd06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4bea69b71c034b1658680fec5cd49e59.setIcon(icon_19f8fed4f43ebe58bfc24d9dab91dd06);
+        
+    
+        var popup_05dca668c39e8a822da4994745667553 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e4f7b51f56998621cdf077fb84eb642 = $(`<div id="html_7e4f7b51f56998621cdf077fb84eb642" style="width: 100.0%; height: 100.0%;">Traffic alert in Kolkata near Salt Lake Stadium. Cause: other. Severity: Neutral.</div>`)[0];
+                popup_05dca668c39e8a822da4994745667553.setContent(html_7e4f7b51f56998621cdf077fb84eb642);
+            
+        
+
+        marker_4bea69b71c034b1658680fec5cd49e59.bindPopup(popup_05dca668c39e8a822da4994745667553)
+        ;
+
+        
+    
+    
+            marker_4bea69b71c034b1658680fec5cd49e59.bindTooltip(
+                `<div>
+                     Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

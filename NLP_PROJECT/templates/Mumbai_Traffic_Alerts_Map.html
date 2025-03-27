@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9670c669a2fa1f0f045789b270e27b7c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9670c669a2fa1f0f045789b270e27b7c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9670c669a2fa1f0f045789b270e27b7c = L.map(
+                "map_9670c669a2fa1f0f045789b270e27b7c",
+                {
+                    center: [19.04676393823529, 72.85598743235293],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_12dfb43d76dba44146e636feb485bf13 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_12dfb43d76dba44146e636feb485bf13.addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var marker_abb885731cc91241426c1839652218aa = L.marker(
+                [19.1187195, 72.9073476],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_8e6acf34a6d02b68c18898248d7e36fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_abb885731cc91241426c1839652218aa.setIcon(icon_8e6acf34a6d02b68c18898248d7e36fe);
+        
+    
+        var popup_8c435b4e6745fe38ab85b57b2a52884a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1c90c596e16e7d5e623275f61ab8e01 = $(`<div id="html_f1c90c596e16e7d5e623275f61ab8e01" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Powai. Cause: accident. Severity: Positive.</div>`)[0];
+                popup_8c435b4e6745fe38ab85b57b2a52884a.setContent(html_f1c90c596e16e7d5e623275f61ab8e01);
+            
+        
+
+        marker_abb885731cc91241426c1839652218aa.bindPopup(popup_8c435b4e6745fe38ab85b57b2a52884a)
+        ;
+
+        
+    
+    
+            marker_abb885731cc91241426c1839652218aa.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a05cd7a9d76f6526ee8188e563732683 = L.marker(
+                [19.1196976, 72.8464205],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_25054863d83d0eff6d4df7a22f5e7098 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a05cd7a9d76f6526ee8188e563732683.setIcon(icon_25054863d83d0eff6d4df7a22f5e7098);
+        
+    
+        var popup_f2d90147a42f7415190ae91a814a1eba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f8d30703f031fff6cfd78d0f9c8231b = $(`<div id="html_0f8d30703f031fff6cfd78d0f9c8231b" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Andheri. Cause: road_construction. Severity: Negative.</div>`)[0];
+                popup_f2d90147a42f7415190ae91a814a1eba.setContent(html_0f8d30703f031fff6cfd78d0f9c8231b);
+            
+        
+
+        marker_a05cd7a9d76f6526ee8188e563732683.bindPopup(popup_f2d90147a42f7415190ae91a814a1eba)
+        ;
+
+        
+    
+    
+            marker_a05cd7a9d76f6526ee8188e563732683.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_864d4eb2cf18b64043026f6b2881f0f0 = L.marker(
+                [18.915091, 72.8259691],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_e3a45ff929d7fc284afc12597114a6a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_864d4eb2cf18b64043026f6b2881f0f0.setIcon(icon_e3a45ff929d7fc284afc12597114a6a6);
+        
+    
+        var popup_b6dbc3d78054c45d5799266c56b13b52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de47a9e63a336284a9f79d6290e26900 = $(`<div id="html_de47a9e63a336284a9f79d6290e26900" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Colaba. Cause: road_construction. Severity: Negative.</div>`)[0];
+                popup_b6dbc3d78054c45d5799266c56b13b52.setContent(html_de47a9e63a336284a9f79d6290e26900);
+            
+        
+
+        marker_864d4eb2cf18b64043026f6b2881f0f0.bindPopup(popup_b6dbc3d78054c45d5799266c56b13b52)
+        ;
+
+        
+    
+    
+            marker_864d4eb2cf18b64043026f6b2881f0f0.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d26536c0546d91e65df6de01255308c3 = L.marker(
+                [19.1187195, 72.9073476],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_200ec3278e03c6c73e53e94c0a9d207a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d26536c0546d91e65df6de01255308c3.setIcon(icon_200ec3278e03c6c73e53e94c0a9d207a);
+        
+    
+        var popup_3828bf10658ad96eb5a9353c1343af1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fc37fdddfa7ee00e1e0db78a7c007e1 = $(`<div id="html_2fc37fdddfa7ee00e1e0db78a7c007e1" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Powai. Cause: other. Severity: Positive.</div>`)[0];
+                popup_3828bf10658ad96eb5a9353c1343af1d.setContent(html_2fc37fdddfa7ee00e1e0db78a7c007e1);
+            
+        
+
+        marker_d26536c0546d91e65df6de01255308c3.bindPopup(popup_3828bf10658ad96eb5a9353c1343af1d)
+        ;
+
+        
+    
+    
+            marker_d26536c0546d91e65df6de01255308c3.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8ef4e0165d4cde7d2e0f804f6e8e7c3 = L.marker(
+                [18.915091, 72.8259691],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_487be2f7e093a97928e5c02390463e22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d8ef4e0165d4cde7d2e0f804f6e8e7c3.setIcon(icon_487be2f7e093a97928e5c02390463e22);
+        
+    
+        var popup_42972a49caa4fda98f4a3d5403a762cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eea129a586a54d12944ee5aaed350c59 = $(`<div id="html_eea129a586a54d12944ee5aaed350c59" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Colaba. Cause: accident. Severity: Positive.</div>`)[0];
+                popup_42972a49caa4fda98f4a3d5403a762cc.setContent(html_eea129a586a54d12944ee5aaed350c59);
+            
+        
+
+        marker_d8ef4e0165d4cde7d2e0f804f6e8e7c3.bindPopup(popup_42972a49caa4fda98f4a3d5403a762cc)
+        ;
+
+        
+    
+    
+            marker_d8ef4e0165d4cde7d2e0f804f6e8e7c3.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea42595436a5e25ec0f81f76e3e98fe9 = L.marker(
+                [18.915091, 72.8259691],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_5cc916e1775dc80efce6169bb270235b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea42595436a5e25ec0f81f76e3e98fe9.setIcon(icon_5cc916e1775dc80efce6169bb270235b);
+        
+    
+        var popup_1b9606d6adbb4d763eae9d23be19d5af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_718f555df9009e4390796fe389f9a6f2 = $(`<div id="html_718f555df9009e4390796fe389f9a6f2" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Colaba. Cause: other. Severity: Positive.</div>`)[0];
+                popup_1b9606d6adbb4d763eae9d23be19d5af.setContent(html_718f555df9009e4390796fe389f9a6f2);
+            
+        
+
+        marker_ea42595436a5e25ec0f81f76e3e98fe9.bindPopup(popup_1b9606d6adbb4d763eae9d23be19d5af)
+        ;
+
+        
+    
+    
+            marker_ea42595436a5e25ec0f81f76e3e98fe9.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4cf89402cbf58e456564ddce0917a909 = L.marker(
+                [19.1196976, 72.8464205],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_ee26cf416fae341475d06389c886909a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4cf89402cbf58e456564ddce0917a909.setIcon(icon_ee26cf416fae341475d06389c886909a);
+        
+    
+        var popup_933acc5c5a1a89332a10e823c24acc0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68120ee1065325cd5111571326d41faf = $(`<div id="html_68120ee1065325cd5111571326d41faf" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Andheri. Cause: vehicle_breakdown. Severity: Positive.</div>`)[0];
+                popup_933acc5c5a1a89332a10e823c24acc0e.setContent(html_68120ee1065325cd5111571326d41faf);
+            
+        
+
+        marker_4cf89402cbf58e456564ddce0917a909.bindPopup(popup_933acc5c5a1a89332a10e823c24acc0e)
+        ;
+
+        
+    
+    
+            marker_4cf89402cbf58e456564ddce0917a909.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_795da41eca5f1cb57b25ca96f00602fd = L.marker(
+                [19.1187195, 72.9073476],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_9c99efa47826642b2484b4f220ec1d97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_795da41eca5f1cb57b25ca96f00602fd.setIcon(icon_9c99efa47826642b2484b4f220ec1d97);
+        
+    
+        var popup_b6eb46764b0672d2a3fef54a77d42fc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_194df4e780dc1fb90ffc26ffa4763059 = $(`<div id="html_194df4e780dc1fb90ffc26ffa4763059" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Powai. Cause: checkpoint. Severity: Positive.</div>`)[0];
+                popup_b6eb46764b0672d2a3fef54a77d42fc6.setContent(html_194df4e780dc1fb90ffc26ffa4763059);
+            
+        
+
+        marker_795da41eca5f1cb57b25ca96f00602fd.bindPopup(popup_b6eb46764b0672d2a3fef54a77d42fc6)
+        ;
+
+        
+    
+    
+            marker_795da41eca5f1cb57b25ca96f00602fd.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bf34a5717a36532cefccbc8a6e5f371 = L.marker(
+                [19.1187195, 72.9073476],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_93800de5a1761beffa91baf56809e3d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8bf34a5717a36532cefccbc8a6e5f371.setIcon(icon_93800de5a1761beffa91baf56809e3d0);
+        
+    
+        var popup_f1bc6e69a8d114f5497ed3ec9e7f7705 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fc8c7dded300dc94c6cf8ac74754177 = $(`<div id="html_3fc8c7dded300dc94c6cf8ac74754177" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Powai. Cause: other. Severity: Negative.</div>`)[0];
+                popup_f1bc6e69a8d114f5497ed3ec9e7f7705.setContent(html_3fc8c7dded300dc94c6cf8ac74754177);
+            
+        
+
+        marker_8bf34a5717a36532cefccbc8a6e5f371.bindPopup(popup_f1bc6e69a8d114f5497ed3ec9e7f7705)
+        ;
+
+        
+    
+    
+            marker_8bf34a5717a36532cefccbc8a6e5f371.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5d97f043bea09486f1f242b3c49254f = L.marker(
+                [19.1187195, 72.9073476],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_80a320734dbddce9ef99b3b3266458e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f5d97f043bea09486f1f242b3c49254f.setIcon(icon_80a320734dbddce9ef99b3b3266458e7);
+        
+    
+        var popup_2d130dab7678cf75abd929e6be88b7da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c307ebb4f9722bba805341cdc77ea9ed = $(`<div id="html_c307ebb4f9722bba805341cdc77ea9ed" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Powai. Cause: other. Severity: Positive.</div>`)[0];
+                popup_2d130dab7678cf75abd929e6be88b7da.setContent(html_c307ebb4f9722bba805341cdc77ea9ed);
+            
+        
+
+        marker_f5d97f043bea09486f1f242b3c49254f.bindPopup(popup_2d130dab7678cf75abd929e6be88b7da)
+        ;
+
+        
+    
+    
+            marker_f5d97f043bea09486f1f242b3c49254f.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99f98edbfb01bf3051cd50e99923b863 = L.marker(
+                [19.1196976, 72.8464205],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_efd074e44e92bd33d3778db4c8c8bce7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_99f98edbfb01bf3051cd50e99923b863.setIcon(icon_efd074e44e92bd33d3778db4c8c8bce7);
+        
+    
+        var popup_bd5127a032fe7830b68653f283b7a235 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2803b57198fce015d3e4bbbbc7643f3 = $(`<div id="html_b2803b57198fce015d3e4bbbbc7643f3" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Andheri. Cause: other. Severity: Positive.</div>`)[0];
+                popup_bd5127a032fe7830b68653f283b7a235.setContent(html_b2803b57198fce015d3e4bbbbc7643f3);
+            
+        
+
+        marker_99f98edbfb01bf3051cd50e99923b863.bindPopup(popup_bd5127a032fe7830b68653f283b7a235)
+        ;
+
+        
+    
+    
+            marker_99f98edbfb01bf3051cd50e99923b863.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf90a8cec0f55e971827981399dc1900 = L.marker(
+                [19.0177342, 72.8437523],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_beb935e1a9babdc540a4af42845637bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bf90a8cec0f55e971827981399dc1900.setIcon(icon_beb935e1a9babdc540a4af42845637bf);
+        
+    
+        var popup_7f2e06420ecbe7e7a3a639e1d9404f3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e71409a3ba56d8b600bd63b7c40bb38f = $(`<div id="html_e71409a3ba56d8b600bd63b7c40bb38f" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Dadar. Cause: road_construction. Severity: Negative.</div>`)[0];
+                popup_7f2e06420ecbe7e7a3a639e1d9404f3e.setContent(html_e71409a3ba56d8b600bd63b7c40bb38f);
+            
+        
+
+        marker_bf90a8cec0f55e971827981399dc1900.bindPopup(popup_7f2e06420ecbe7e7a3a639e1d9404f3e)
+        ;
+
+        
+    
+    
+            marker_bf90a8cec0f55e971827981399dc1900.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11f90e53a7699b35837590c7fc140511 = L.marker(
+                [19.0549792, 72.8402203],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_57f7d73df2463ccc2e6129f57a1f1223 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_11f90e53a7699b35837590c7fc140511.setIcon(icon_57f7d73df2463ccc2e6129f57a1f1223);
+        
+    
+        var popup_ff4d53594f6728145e37f057a9b2c66d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cb3bc4e2382f2eed650e577f423128a = $(`<div id="html_7cb3bc4e2382f2eed650e577f423128a" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Bandra. Cause: vehicle_breakdown. Severity: Positive.</div>`)[0];
+                popup_ff4d53594f6728145e37f057a9b2c66d.setContent(html_7cb3bc4e2382f2eed650e577f423128a);
+            
+        
+
+        marker_11f90e53a7699b35837590c7fc140511.bindPopup(popup_ff4d53594f6728145e37f057a9b2c66d)
+        ;
+
+        
+    
+    
+            marker_11f90e53a7699b35837590c7fc140511.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_504c5b3d01d901674416dff3a85e0e87 = L.marker(
+                [18.915091, 72.8259691],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_e7e4c75a15d6de9d512218fad322418e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_504c5b3d01d901674416dff3a85e0e87.setIcon(icon_e7e4c75a15d6de9d512218fad322418e);
+        
+    
+        var popup_b6f78024244b7c9fcad089718057ab20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de8f56f9f1521585d02f42e4a98f7e9b = $(`<div id="html_de8f56f9f1521585d02f42e4a98f7e9b" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Colaba. Cause: rain. Severity: Negative.</div>`)[0];
+                popup_b6f78024244b7c9fcad089718057ab20.setContent(html_de8f56f9f1521585d02f42e4a98f7e9b);
+            
+        
+
+        marker_504c5b3d01d901674416dff3a85e0e87.bindPopup(popup_b6f78024244b7c9fcad089718057ab20)
+        ;
+
+        
+    
+    
+            marker_504c5b3d01d901674416dff3a85e0e87.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_695afac7707cdd6b1cea1b98e9375b03 = L.marker(
+                [18.915091, 72.8259691],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_184417de1e11222d6f19f31a82f35fbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_695afac7707cdd6b1cea1b98e9375b03.setIcon(icon_184417de1e11222d6f19f31a82f35fbc);
+        
+    
+        var popup_7a4e0179719e6ba44410df50011bd34d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8818bcf825eb054657404c137af07b8a = $(`<div id="html_8818bcf825eb054657404c137af07b8a" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Colaba. Cause: vehicle_breakdown. Severity: Positive.</div>`)[0];
+                popup_7a4e0179719e6ba44410df50011bd34d.setContent(html_8818bcf825eb054657404c137af07b8a);
+            
+        
+
+        marker_695afac7707cdd6b1cea1b98e9375b03.bindPopup(popup_7a4e0179719e6ba44410df50011bd34d)
+        ;
+
+        
+    
+    
+            marker_695afac7707cdd6b1cea1b98e9375b03.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4538f41714342ecf8625e61f9106b988 = L.marker(
+                [19.0177342, 72.8437523],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_1a492cf08c4a39fb59abcd9223719408 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4538f41714342ecf8625e61f9106b988.setIcon(icon_1a492cf08c4a39fb59abcd9223719408);
+        
+    
+        var popup_09ca89ff83e17ae5611f97c8e985c8ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03dd45cf51dd875316e62c99c319bd95 = $(`<div id="html_03dd45cf51dd875316e62c99c319bd95" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Dadar. Cause: checkpoint. Severity: Positive.</div>`)[0];
+                popup_09ca89ff83e17ae5611f97c8e985c8ab.setContent(html_03dd45cf51dd875316e62c99c319bd95);
+            
+        
+
+        marker_4538f41714342ecf8625e61f9106b988.bindPopup(popup_09ca89ff83e17ae5611f97c8e985c8ab)
+        ;
+
+        
+    
+    
+            marker_4538f41714342ecf8625e61f9106b988.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f370f4acef6d5b46e6066a4c42927b51 = L.marker(
+                [19.1187195, 72.9073476],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_0e8c0152859bb1bf4b1963c72fb8211d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f370f4acef6d5b46e6066a4c42927b51.setIcon(icon_0e8c0152859bb1bf4b1963c72fb8211d);
+        
+    
+        var popup_b484bd253ba75dd5fd5e65d103fd8f49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99033d3d5ea86fcec2013381c3934bf3 = $(`<div id="html_99033d3d5ea86fcec2013381c3934bf3" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Powai. Cause: other. Severity: Positive.</div>`)[0];
+                popup_b484bd253ba75dd5fd5e65d103fd8f49.setContent(html_99033d3d5ea86fcec2013381c3934bf3);
+            
+        
+
+        marker_f370f4acef6d5b46e6066a4c42927b51.bindPopup(popup_b484bd253ba75dd5fd5e65d103fd8f49)
+        ;
+
+        
+    
+    
+            marker_f370f4acef6d5b46e6066a4c42927b51.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_903381aeda262a7b65ca6f6c8f173bb7 = L.marker(
+                [19.1196976, 72.8464205],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_d0357368fbe8af74d4bf940709031ba4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_903381aeda262a7b65ca6f6c8f173bb7.setIcon(icon_d0357368fbe8af74d4bf940709031ba4);
+        
+    
+        var popup_418381576c5cb64e88f31ecb2e54a560 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e73c879abb9eeee37da7888cbb763fc9 = $(`<div id="html_e73c879abb9eeee37da7888cbb763fc9" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Andheri. Cause: other. Severity: Positive.</div>`)[0];
+                popup_418381576c5cb64e88f31ecb2e54a560.setContent(html_e73c879abb9eeee37da7888cbb763fc9);
+            
+        
+
+        marker_903381aeda262a7b65ca6f6c8f173bb7.bindPopup(popup_418381576c5cb64e88f31ecb2e54a560)
+        ;
+
+        
+    
+    
+            marker_903381aeda262a7b65ca6f6c8f173bb7.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d3d30cb95224ddf034517553bf6057c = L.marker(
+                [19.0549792, 72.8402203],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_1d645810bc63dc4497c887b587e26677 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d3d30cb95224ddf034517553bf6057c.setIcon(icon_1d645810bc63dc4497c887b587e26677);
+        
+    
+        var popup_b01a9d96b5b60fe48d3bef82fe9e5565 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_338e4c214490937865624a48e11f971f = $(`<div id="html_338e4c214490937865624a48e11f971f" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Bandra. Cause: checkpoint. Severity: Positive.</div>`)[0];
+                popup_b01a9d96b5b60fe48d3bef82fe9e5565.setContent(html_338e4c214490937865624a48e11f971f);
+            
+        
+
+        marker_0d3d30cb95224ddf034517553bf6057c.bindPopup(popup_b01a9d96b5b60fe48d3bef82fe9e5565)
+        ;
+
+        
+    
+    
+            marker_0d3d30cb95224ddf034517553bf6057c.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90615b08d8953a6495ba006abaf91bd1 = L.marker(
+                [19.0549792, 72.8402203],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_e477a6c7badf44939964f701e043b5de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_90615b08d8953a6495ba006abaf91bd1.setIcon(icon_e477a6c7badf44939964f701e043b5de);
+        
+    
+        var popup_2d967e8669468459ea6b97505d55bf75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5b7441e4d5a6ba8eb926f22cd871ea3 = $(`<div id="html_f5b7441e4d5a6ba8eb926f22cd871ea3" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Bandra. Cause: road_construction. Severity: Negative.</div>`)[0];
+                popup_2d967e8669468459ea6b97505d55bf75.setContent(html_f5b7441e4d5a6ba8eb926f22cd871ea3);
+            
+        
+
+        marker_90615b08d8953a6495ba006abaf91bd1.bindPopup(popup_2d967e8669468459ea6b97505d55bf75)
+        ;
+
+        
+    
+    
+            marker_90615b08d8953a6495ba006abaf91bd1.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8a6bcba702ed669a4cf869c792b8a7b = L.marker(
+                [18.915091, 72.8259691],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_14cad47e4bb548fe95311b925562782a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f8a6bcba702ed669a4cf869c792b8a7b.setIcon(icon_14cad47e4bb548fe95311b925562782a);
+        
+    
+        var popup_99eaa642532f39912504eb4e622e275d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05f93a2368a5b7f133458f8aec29915b = $(`<div id="html_05f93a2368a5b7f133458f8aec29915b" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Colaba. Cause: other. Severity: Negative.</div>`)[0];
+                popup_99eaa642532f39912504eb4e622e275d.setContent(html_05f93a2368a5b7f133458f8aec29915b);
+            
+        
+
+        marker_f8a6bcba702ed669a4cf869c792b8a7b.bindPopup(popup_99eaa642532f39912504eb4e622e275d)
+        ;
+
+        
+    
+    
+            marker_f8a6bcba702ed669a4cf869c792b8a7b.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d16ce9e9f0dec5329068a54297c0ec5a = L.marker(
+                [19.1187195, 72.9073476],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_555182954c6b64078f89371883c9b476 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d16ce9e9f0dec5329068a54297c0ec5a.setIcon(icon_555182954c6b64078f89371883c9b476);
+        
+    
+        var popup_9ede7cfda07d3062d12e473ee6cb0442 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0149751b121bada86ecd55da659bf4f4 = $(`<div id="html_0149751b121bada86ecd55da659bf4f4" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Powai. Cause: rain. Severity: Negative.</div>`)[0];
+                popup_9ede7cfda07d3062d12e473ee6cb0442.setContent(html_0149751b121bada86ecd55da659bf4f4);
+            
+        
+
+        marker_d16ce9e9f0dec5329068a54297c0ec5a.bindPopup(popup_9ede7cfda07d3062d12e473ee6cb0442)
+        ;
+
+        
+    
+    
+            marker_d16ce9e9f0dec5329068a54297c0ec5a.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a245ddf37ee6a11b44810ae6d64dce8 = L.marker(
+                [19.1196976, 72.8464205],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_4d511a83cc81390396efb7b7969fae8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2a245ddf37ee6a11b44810ae6d64dce8.setIcon(icon_4d511a83cc81390396efb7b7969fae8b);
+        
+    
+        var popup_e1525129b911dc05a6725ee1ce7b2b21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c1b2cc3d73061cb37522426dd6f8130 = $(`<div id="html_6c1b2cc3d73061cb37522426dd6f8130" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Andheri. Cause: rain. Severity: Negative.</div>`)[0];
+                popup_e1525129b911dc05a6725ee1ce7b2b21.setContent(html_6c1b2cc3d73061cb37522426dd6f8130);
+            
+        
+
+        marker_2a245ddf37ee6a11b44810ae6d64dce8.bindPopup(popup_e1525129b911dc05a6725ee1ce7b2b21)
+        ;
+
+        
+    
+    
+            marker_2a245ddf37ee6a11b44810ae6d64dce8.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7779e7c4927245059e9e0831d49f818a = L.marker(
+                [18.915091, 72.8259691],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_fcfe909fc43460fd58054d80dcc894f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7779e7c4927245059e9e0831d49f818a.setIcon(icon_fcfe909fc43460fd58054d80dcc894f8);
+        
+    
+        var popup_3e9f562de576bcf3efeb3d30b1beb8c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cf590fab45dd13101df5de9552153d9 = $(`<div id="html_7cf590fab45dd13101df5de9552153d9" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Colaba. Cause: other. Severity: Positive.</div>`)[0];
+                popup_3e9f562de576bcf3efeb3d30b1beb8c9.setContent(html_7cf590fab45dd13101df5de9552153d9);
+            
+        
+
+        marker_7779e7c4927245059e9e0831d49f818a.bindPopup(popup_3e9f562de576bcf3efeb3d30b1beb8c9)
+        ;
+
+        
+    
+    
+            marker_7779e7c4927245059e9e0831d49f818a.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b73c6a3cf189ef582f3514a56a9f93c = L.marker(
+                [19.0549792, 72.8402203],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_813ed5237a76563386736d67e3ebe220 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1b73c6a3cf189ef582f3514a56a9f93c.setIcon(icon_813ed5237a76563386736d67e3ebe220);
+        
+    
+        var popup_a25ca9e3bef78dcdb1675ac49cecce85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab50344df46671355c18cb12fb1afbc8 = $(`<div id="html_ab50344df46671355c18cb12fb1afbc8" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Bandra. Cause: accident. Severity: Positive.</div>`)[0];
+                popup_a25ca9e3bef78dcdb1675ac49cecce85.setContent(html_ab50344df46671355c18cb12fb1afbc8);
+            
+        
+
+        marker_1b73c6a3cf189ef582f3514a56a9f93c.bindPopup(popup_a25ca9e3bef78dcdb1675ac49cecce85)
+        ;
+
+        
+    
+    
+            marker_1b73c6a3cf189ef582f3514a56a9f93c.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ede089828d7041aa793f9e0dcb83e586 = L.marker(
+                [19.1196976, 72.8464205],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_0a34b776cc730c2334d8f2d2301371aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ede089828d7041aa793f9e0dcb83e586.setIcon(icon_0a34b776cc730c2334d8f2d2301371aa);
+        
+    
+        var popup_8afe105da33908fb2fdd15a4b472e898 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13fa4d0df59b547cc0a6fc34c038c7d2 = $(`<div id="html_13fa4d0df59b547cc0a6fc34c038c7d2" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Andheri. Cause: accident. Severity: Positive.</div>`)[0];
+                popup_8afe105da33908fb2fdd15a4b472e898.setContent(html_13fa4d0df59b547cc0a6fc34c038c7d2);
+            
+        
+
+        marker_ede089828d7041aa793f9e0dcb83e586.bindPopup(popup_8afe105da33908fb2fdd15a4b472e898)
+        ;
+
+        
+    
+    
+            marker_ede089828d7041aa793f9e0dcb83e586.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f95c9e18b028fa38d2456c3f7799bc1 = L.marker(
+                [19.0177342, 72.8437523],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_e1295d20eaed5ffc49e366c34dc4204f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6f95c9e18b028fa38d2456c3f7799bc1.setIcon(icon_e1295d20eaed5ffc49e366c34dc4204f);
+        
+    
+        var popup_fadf4618d8cee65729446532017501f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a2a0d378ff5978fc90d95eb6aa267a6 = $(`<div id="html_9a2a0d378ff5978fc90d95eb6aa267a6" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Dadar. Cause: other. Severity: Negative.</div>`)[0];
+                popup_fadf4618d8cee65729446532017501f0.setContent(html_9a2a0d378ff5978fc90d95eb6aa267a6);
+            
+        
+
+        marker_6f95c9e18b028fa38d2456c3f7799bc1.bindPopup(popup_fadf4618d8cee65729446532017501f0)
+        ;
+
+        
+    
+    
+            marker_6f95c9e18b028fa38d2456c3f7799bc1.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8531fcfe66f8f1a2d863c676114f79b6 = L.marker(
+                [18.915091, 72.8259691],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_767eabbd77cead4ec726600970d178bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8531fcfe66f8f1a2d863c676114f79b6.setIcon(icon_767eabbd77cead4ec726600970d178bc);
+        
+    
+        var popup_6754788f0006a220fec4c9b4fa514cf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfa831393f7df7b7a460152b30d42c19 = $(`<div id="html_dfa831393f7df7b7a460152b30d42c19" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Colaba. Cause: checkpoint. Severity: Positive.</div>`)[0];
+                popup_6754788f0006a220fec4c9b4fa514cf3.setContent(html_dfa831393f7df7b7a460152b30d42c19);
+            
+        
+
+        marker_8531fcfe66f8f1a2d863c676114f79b6.bindPopup(popup_6754788f0006a220fec4c9b4fa514cf3)
+        ;
+
+        
+    
+    
+            marker_8531fcfe66f8f1a2d863c676114f79b6.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bf84eadd0bf34b708c2c44d4a56ad3d = L.marker(
+                [19.1187195, 72.9073476],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_5615240950e1e76cff9e57c070be3f9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8bf84eadd0bf34b708c2c44d4a56ad3d.setIcon(icon_5615240950e1e76cff9e57c070be3f9a);
+        
+    
+        var popup_a564b4f81984af3c0f2f541b2c559aa4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0f768624f2b1b650cca090e2d2e0ba5 = $(`<div id="html_f0f768624f2b1b650cca090e2d2e0ba5" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Powai. Cause: vehicle_breakdown. Severity: Positive.</div>`)[0];
+                popup_a564b4f81984af3c0f2f541b2c559aa4.setContent(html_f0f768624f2b1b650cca090e2d2e0ba5);
+            
+        
+
+        marker_8bf84eadd0bf34b708c2c44d4a56ad3d.bindPopup(popup_a564b4f81984af3c0f2f541b2c559aa4)
+        ;
+
+        
+    
+    
+            marker_8bf84eadd0bf34b708c2c44d4a56ad3d.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25c473812dae0542a6b3db38ab8025a3 = L.marker(
+                [19.1196976, 72.8464205],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_8394a69cb2a326a910f4a0eccf222dd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_25c473812dae0542a6b3db38ab8025a3.setIcon(icon_8394a69cb2a326a910f4a0eccf222dd1);
+        
+    
+        var popup_21ecc44a41d5f6b81e9351af27feae17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddec3560c831789a24f602a9efb562aa = $(`<div id="html_ddec3560c831789a24f602a9efb562aa" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Andheri. Cause: checkpoint. Severity: Positive.</div>`)[0];
+                popup_21ecc44a41d5f6b81e9351af27feae17.setContent(html_ddec3560c831789a24f602a9efb562aa);
+            
+        
+
+        marker_25c473812dae0542a6b3db38ab8025a3.bindPopup(popup_21ecc44a41d5f6b81e9351af27feae17)
+        ;
+
+        
+    
+    
+            marker_25c473812dae0542a6b3db38ab8025a3.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ab60b9a787e245ccfc5e131d2345710 = L.marker(
+                [19.1196976, 72.8464205],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_f4d51ad64d69fe8a99d2319092f11ded = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ab60b9a787e245ccfc5e131d2345710.setIcon(icon_f4d51ad64d69fe8a99d2319092f11ded);
+        
+    
+        var popup_804d010617f6c67ff8cdb4dedba5ba20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91ebb208394e6f86fb3a35137ac3fd8b = $(`<div id="html_91ebb208394e6f86fb3a35137ac3fd8b" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Andheri. Cause: other. Severity: Negative.</div>`)[0];
+                popup_804d010617f6c67ff8cdb4dedba5ba20.setContent(html_91ebb208394e6f86fb3a35137ac3fd8b);
+            
+        
+
+        marker_9ab60b9a787e245ccfc5e131d2345710.bindPopup(popup_804d010617f6c67ff8cdb4dedba5ba20)
+        ;
+
+        
+    
+    
+            marker_9ab60b9a787e245ccfc5e131d2345710.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5adc4416c657477f32a08bb0dbd43ba2 = L.marker(
+                [18.915091, 72.8259691],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_5188cda59193b8e475825e6980d7a62c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5adc4416c657477f32a08bb0dbd43ba2.setIcon(icon_5188cda59193b8e475825e6980d7a62c);
+        
+    
+        var popup_36730d0b02162df5cd9a6ab9a2b14cb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e3938cc62e91f53f28d9dff084284ab = $(`<div id="html_9e3938cc62e91f53f28d9dff084284ab" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Colaba. Cause: other. Severity: Positive.</div>`)[0];
+                popup_36730d0b02162df5cd9a6ab9a2b14cb5.setContent(html_9e3938cc62e91f53f28d9dff084284ab);
+            
+        
+
+        marker_5adc4416c657477f32a08bb0dbd43ba2.bindPopup(popup_36730d0b02162df5cd9a6ab9a2b14cb5)
+        ;
+
+        
+    
+    
+            marker_5adc4416c657477f32a08bb0dbd43ba2.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b052731dbe34d4bff83f9bd7d50bbfd = L.marker(
+                [19.0549792, 72.8402203],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_22d4a10301cf2c20bd1fd5aeb66f1b5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6b052731dbe34d4bff83f9bd7d50bbfd.setIcon(icon_22d4a10301cf2c20bd1fd5aeb66f1b5b);
+        
+    
+        var popup_244340694cbd46433a2bd8378f167d9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d40bdbf1b0c9c4920a6fd0f8f21c2ac = $(`<div id="html_9d40bdbf1b0c9c4920a6fd0f8f21c2ac" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Bandra. Cause: other. Severity: Negative.</div>`)[0];
+                popup_244340694cbd46433a2bd8378f167d9f.setContent(html_9d40bdbf1b0c9c4920a6fd0f8f21c2ac);
+            
+        
+
+        marker_6b052731dbe34d4bff83f9bd7d50bbfd.bindPopup(popup_244340694cbd46433a2bd8378f167d9f)
+        ;
+
+        
+    
+    
+            marker_6b052731dbe34d4bff83f9bd7d50bbfd.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eec0b0624c3e4d77dd8f80473f8d802d = L.marker(
+                [19.1187195, 72.9073476],
+                {}
+            ).addTo(map_9670c669a2fa1f0f045789b270e27b7c);
+        
+    
+            var icon_f0567cc99b5427b769fc25e68d545a0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eec0b0624c3e4d77dd8f80473f8d802d.setIcon(icon_f0567cc99b5427b769fc25e68d545a0a);
+        
+    
+        var popup_244f5ec970c2a621e54c703cca5dc57d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27737ceb61c5ca2e2ef21404e5efc56f = $(`<div id="html_27737ceb61c5ca2e2ef21404e5efc56f" style="width: 100.0%; height: 100.0%;">Traffic alert in Mumbai near Powai. Cause: road_construction. Severity: Negative.</div>`)[0];
+                popup_244f5ec970c2a621e54c703cca5dc57d.setContent(html_27737ceb61c5ca2e2ef21404e5efc56f);
+            
+        
+
+        marker_eec0b0624c3e4d77dd8f80473f8d802d.bindPopup(popup_244f5ec970c2a621e54c703cca5dc57d)
+        ;
+
+        
+    
+    
+            marker_eec0b0624c3e4d77dd8f80473f8d802d.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_034f13bd5f8473a715db8b6f7b64b40d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_034f13bd5f8473a715db8b6f7b64b40d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_034f13bd5f8473a715db8b6f7b64b40d = L.map(
+                "map_034f13bd5f8473a715db8b6f7b64b40d",
+                {
+                    center: [25.573573600000003, 73.32568654117648],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a3e179c25bd41c4fc8ee29de93c43531 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a3e179c25bd41c4fc8ee29de93c43531.addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var marker_99943aaf2f1ffc56a691df5193088057 = L.marker(
+                [28.655, 77.1888],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_ba6a04675375f0f87c15019bb792f11d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_99943aaf2f1ffc56a691df5193088057.setIcon(icon_ba6a04675375f0f87c15019bb792f11d);
+        
+    
+        var popup_e612ccb32e8346d48db956d560f0c3fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aface878a86b46b14855829263db2c5d = $(`<div id="html_aface878a86b46b14855829263db2c5d" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near unknown location. Cause: other. Severity: Neutral.</div>`)[0];
+                popup_e612ccb32e8346d48db956d560f0c3fd.setContent(html_aface878a86b46b14855829263db2c5d);
+            
+        
+
+        marker_99943aaf2f1ffc56a691df5193088057.bindPopup(popup_e612ccb32e8346d48db956d560f0c3fd)
+        ;
+
+        
+    
+    
+            marker_99943aaf2f1ffc56a691df5193088057.bindTooltip(
+                `<div>
+                     Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2d7460878595d0fefc6c6365211f5a9 = L.marker(
+                [22.2408009, 68.9662602],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_33a45c68d9d0673cb4c7921570e449ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d2d7460878595d0fefc6c6365211f5a9.setIcon(icon_33a45c68d9d0673cb4c7921570e449ce);
+        
+    
+        var popup_77b2f3890e823b92736fada81a62b099 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_598d5acd0c9c794fd93c533d68d36d8b = $(`<div id="html_598d5acd0c9c794fd93c533d68d36d8b" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Dwarka. Cause: other. Severity: Positive.</div>`)[0];
+                popup_77b2f3890e823b92736fada81a62b099.setContent(html_598d5acd0c9c794fd93c533d68d36d8b);
+            
+        
+
+        marker_d2d7460878595d0fefc6c6365211f5a9.bindPopup(popup_77b2f3890e823b92736fada81a62b099)
+        ;
+
+        
+    
+    
+            marker_d2d7460878595d0fefc6c6365211f5a9.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e87af9b0489f733323e37875be9f2849 = L.marker(
+                [28.521168, 77.2022237],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_301a1f65d0e716b5ec6f7865d5f216ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e87af9b0489f733323e37875be9f2849.setIcon(icon_301a1f65d0e716b5ec6f7865d5f216ac);
+        
+    
+        var popup_e1d5b9e2d0c47cbaa76f6362c4a504fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dae2937f925144f2927877a883c23f39 = $(`<div id="html_dae2937f925144f2927877a883c23f39" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Saket. Cause: checkpoint. Severity: Positive.</div>`)[0];
+                popup_e1d5b9e2d0c47cbaa76f6362c4a504fc.setContent(html_dae2937f925144f2927877a883c23f39);
+            
+        
+
+        marker_e87af9b0489f733323e37875be9f2849.bindPopup(popup_e1d5b9e2d0c47cbaa76f6362c4a504fc)
+        ;
+
+        
+    
+    
+            marker_e87af9b0489f733323e37875be9f2849.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf99be0e0c07572f8f4073778af8b650 = L.marker(
+                [22.2408009, 68.9662602],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_e10077f944b00ffa555fed507e09d745 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bf99be0e0c07572f8f4073778af8b650.setIcon(icon_e10077f944b00ffa555fed507e09d745);
+        
+    
+        var popup_6d2990320c133f4d3a781c098e6bcda5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e29b59871e2fa9950d6fd98d0edd0729 = $(`<div id="html_e29b59871e2fa9950d6fd98d0edd0729" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Dwarka. Cause: vehicle_breakdown. Severity: Positive.</div>`)[0];
+                popup_6d2990320c133f4d3a781c098e6bcda5.setContent(html_e29b59871e2fa9950d6fd98d0edd0729);
+            
+        
+
+        marker_bf99be0e0c07572f8f4073778af8b650.bindPopup(popup_6d2990320c133f4d3a781c098e6bcda5)
+        ;
+
+        
+    
+    
+            marker_bf99be0e0c07572f8f4073778af8b650.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a430e53bcfe5745fd0fbb003ee93a6b1 = L.marker(
+                [28.521168, 77.2022237],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_975e956175885d18a5934f8d44ec4f03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a430e53bcfe5745fd0fbb003ee93a6b1.setIcon(icon_975e956175885d18a5934f8d44ec4f03);
+        
+    
+        var popup_d56775ea134f547ffad946fcc5237e6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8ee83aea4d2ffeab84d94dda5e724b8 = $(`<div id="html_c8ee83aea4d2ffeab84d94dda5e724b8" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Saket. Cause: accident. Severity: Positive.</div>`)[0];
+                popup_d56775ea134f547ffad946fcc5237e6d.setContent(html_c8ee83aea4d2ffeab84d94dda5e724b8);
+            
+        
+
+        marker_a430e53bcfe5745fd0fbb003ee93a6b1.bindPopup(popup_d56775ea134f547ffad946fcc5237e6d)
+        ;
+
+        
+    
+    
+            marker_a430e53bcfe5745fd0fbb003ee93a6b1.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccc602fe63dc63eb121925f5c85cafa8 = L.marker(
+                [28.521168, 77.2022237],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_bd9081a434920b28796a0fd9bde80531 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ccc602fe63dc63eb121925f5c85cafa8.setIcon(icon_bd9081a434920b28796a0fd9bde80531);
+        
+    
+        var popup_5465c91b950c64f1dff35e086849a729 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5016e6aedfa34edad7715f865936b535 = $(`<div id="html_5016e6aedfa34edad7715f865936b535" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Saket. Cause: road_construction. Severity: Negative.</div>`)[0];
+                popup_5465c91b950c64f1dff35e086849a729.setContent(html_5016e6aedfa34edad7715f865936b535);
+            
+        
+
+        marker_ccc602fe63dc63eb121925f5c85cafa8.bindPopup(popup_5465c91b950c64f1dff35e086849a729)
+        ;
+
+        
+    
+    
+            marker_ccc602fe63dc63eb121925f5c85cafa8.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bbabe1575304b0a4a44b003b34274a5 = L.marker(
+                [22.2408009, 68.9662602],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_48c54a3e7afe8ecbd17cbf93366304e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9bbabe1575304b0a4a44b003b34274a5.setIcon(icon_48c54a3e7afe8ecbd17cbf93366304e7);
+        
+    
+        var popup_47189b2c7137b60b6822384c943d067b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9449a7788e86b0b29cdc39d00a310e5b = $(`<div id="html_9449a7788e86b0b29cdc39d00a310e5b" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Dwarka. Cause: other. Severity: Negative.</div>`)[0];
+                popup_47189b2c7137b60b6822384c943d067b.setContent(html_9449a7788e86b0b29cdc39d00a310e5b);
+            
+        
+
+        marker_9bbabe1575304b0a4a44b003b34274a5.bindPopup(popup_47189b2c7137b60b6822384c943d067b)
+        ;
+
+        
+    
+    
+            marker_9bbabe1575304b0a4a44b003b34274a5.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a91dc51c2fb3952fbc24c2b595d9986 = L.marker(
+                [22.2408009, 68.9662602],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_2f60c609d0bdcbf768bd7459b8fc4e65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7a91dc51c2fb3952fbc24c2b595d9986.setIcon(icon_2f60c609d0bdcbf768bd7459b8fc4e65);
+        
+    
+        var popup_e733cd42f57ca08a733a3e9e1a8cbc56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea363ee7137a94f9f80ba9eb3084df91 = $(`<div id="html_ea363ee7137a94f9f80ba9eb3084df91" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Dwarka. Cause: rain. Severity: Negative.</div>`)[0];
+                popup_e733cd42f57ca08a733a3e9e1a8cbc56.setContent(html_ea363ee7137a94f9f80ba9eb3084df91);
+            
+        
+
+        marker_7a91dc51c2fb3952fbc24c2b595d9986.bindPopup(popup_e733cd42f57ca08a733a3e9e1a8cbc56)
+        ;
+
+        
+    
+    
+            marker_7a91dc51c2fb3952fbc24c2b595d9986.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a25d9e6292b13c1b48821be29a595945 = L.marker(
+                [28.521168, 77.2022237],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_f0c0878d352f44d9d38c4cc4669beab9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a25d9e6292b13c1b48821be29a595945.setIcon(icon_f0c0878d352f44d9d38c4cc4669beab9);
+        
+    
+        var popup_f9ae5b719dc6fe7044945894e9866f94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36dafce7a912f9cb9f98f5ce1210268b = $(`<div id="html_36dafce7a912f9cb9f98f5ce1210268b" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Saket. Cause: rain. Severity: Negative.</div>`)[0];
+                popup_f9ae5b719dc6fe7044945894e9866f94.setContent(html_36dafce7a912f9cb9f98f5ce1210268b);
+            
+        
+
+        marker_a25d9e6292b13c1b48821be29a595945.bindPopup(popup_f9ae5b719dc6fe7044945894e9866f94)
+        ;
+
+        
+    
+    
+            marker_a25d9e6292b13c1b48821be29a595945.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c087b4cc87b4e6b5a1c41050e358eda7 = L.marker(
+                [28.521168, 77.2022237],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_c29156cd56ce149841edfb546321c889 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c087b4cc87b4e6b5a1c41050e358eda7.setIcon(icon_c29156cd56ce149841edfb546321c889);
+        
+    
+        var popup_a6d31dc1d466171dea17fd7d242ec9e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0cc51753fe6d8b004544bd5bda7d713 = $(`<div id="html_a0cc51753fe6d8b004544bd5bda7d713" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Saket. Cause: other. Severity: Positive.</div>`)[0];
+                popup_a6d31dc1d466171dea17fd7d242ec9e1.setContent(html_a0cc51753fe6d8b004544bd5bda7d713);
+            
+        
+
+        marker_c087b4cc87b4e6b5a1c41050e358eda7.bindPopup(popup_a6d31dc1d466171dea17fd7d242ec9e1)
+        ;
+
+        
+    
+    
+            marker_c087b4cc87b4e6b5a1c41050e358eda7.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e7b5b04c5ff07fff6452e6a97bb6e9f = L.marker(
+                [28.521168, 77.2022237],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_4b4924b43b8776397ddddbb14b4da413 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e7b5b04c5ff07fff6452e6a97bb6e9f.setIcon(icon_4b4924b43b8776397ddddbb14b4da413);
+        
+    
+        var popup_3d28926523b7f4465ceba45a50e3b777 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0502369bb84692801977e5879468bcba = $(`<div id="html_0502369bb84692801977e5879468bcba" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Saket. Cause: vehicle_breakdown. Severity: Positive.</div>`)[0];
+                popup_3d28926523b7f4465ceba45a50e3b777.setContent(html_0502369bb84692801977e5879468bcba);
+            
+        
+
+        marker_3e7b5b04c5ff07fff6452e6a97bb6e9f.bindPopup(popup_3d28926523b7f4465ceba45a50e3b777)
+        ;
+
+        
+    
+    
+            marker_3e7b5b04c5ff07fff6452e6a97bb6e9f.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2454722cb73586c44504d8dc06e23125 = L.marker(
+                [22.2408009, 68.9662602],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_cb0731f5b6290416f7aa50ddc25b3f23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2454722cb73586c44504d8dc06e23125.setIcon(icon_cb0731f5b6290416f7aa50ddc25b3f23);
+        
+    
+        var popup_559cd9894b1133cb1d3c9a985709f447 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_657f48267330f7df635add5849213d9f = $(`<div id="html_657f48267330f7df635add5849213d9f" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Dwarka. Cause: accident. Severity: Positive.</div>`)[0];
+                popup_559cd9894b1133cb1d3c9a985709f447.setContent(html_657f48267330f7df635add5849213d9f);
+            
+        
+
+        marker_2454722cb73586c44504d8dc06e23125.bindPopup(popup_559cd9894b1133cb1d3c9a985709f447)
+        ;
+
+        
+    
+    
+            marker_2454722cb73586c44504d8dc06e23125.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bf3a5c6a79d85c720b9c0ec9f0c561d = L.marker(
+                [28.521168, 77.2022237],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_228597eff2350a7a62995fe1ea92a10b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8bf3a5c6a79d85c720b9c0ec9f0c561d.setIcon(icon_228597eff2350a7a62995fe1ea92a10b);
+        
+    
+        var popup_4af290c8beacec6e3ccb8bd046cee997 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_345be6d1b8e065848e4c12a603d85581 = $(`<div id="html_345be6d1b8e065848e4c12a603d85581" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Saket. Cause: other. Severity: Positive.</div>`)[0];
+                popup_4af290c8beacec6e3ccb8bd046cee997.setContent(html_345be6d1b8e065848e4c12a603d85581);
+            
+        
+
+        marker_8bf3a5c6a79d85c720b9c0ec9f0c561d.bindPopup(popup_4af290c8beacec6e3ccb8bd046cee997)
+        ;
+
+        
+    
+    
+            marker_8bf3a5c6a79d85c720b9c0ec9f0c561d.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d87eb99e2dc52caf7dc94efe0ebcda4 = L.marker(
+                [28.521168, 77.2022237],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_a5b2d64c34c98ffbece7376ecfe2ef25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7d87eb99e2dc52caf7dc94efe0ebcda4.setIcon(icon_a5b2d64c34c98ffbece7376ecfe2ef25);
+        
+    
+        var popup_0261ca944fcf730f8f1768899093adf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d562f182b965247ab6da91fccbd38921 = $(`<div id="html_d562f182b965247ab6da91fccbd38921" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Saket. Cause: other. Severity: Negative.</div>`)[0];
+                popup_0261ca944fcf730f8f1768899093adf2.setContent(html_d562f182b965247ab6da91fccbd38921);
+            
+        
+
+        marker_7d87eb99e2dc52caf7dc94efe0ebcda4.bindPopup(popup_0261ca944fcf730f8f1768899093adf2)
+        ;
+
+        
+    
+    
+            marker_7d87eb99e2dc52caf7dc94efe0ebcda4.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7de5e3886b6ab5ec7b1d58a125a63e9 = L.marker(
+                [22.2408009, 68.9662602],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_8fce0d6c90d2becbfba1fbc6acd073b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7de5e3886b6ab5ec7b1d58a125a63e9.setIcon(icon_8fce0d6c90d2becbfba1fbc6acd073b5);
+        
+    
+        var popup_ced99cb423ef7ef4244ef14c2a31a2ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04d6a8cac72bc77d00da468b5378eda4 = $(`<div id="html_04d6a8cac72bc77d00da468b5378eda4" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Dwarka. Cause: checkpoint. Severity: Positive.</div>`)[0];
+                popup_ced99cb423ef7ef4244ef14c2a31a2ad.setContent(html_04d6a8cac72bc77d00da468b5378eda4);
+            
+        
+
+        marker_a7de5e3886b6ab5ec7b1d58a125a63e9.bindPopup(popup_ced99cb423ef7ef4244ef14c2a31a2ad)
+        ;
+
+        
+    
+    
+            marker_a7de5e3886b6ab5ec7b1d58a125a63e9.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97c5a747c58385cc9d83959b1f6be578 = L.marker(
+                [22.2408009, 68.9662602],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_9e80874093fcbdeecf21ba491460ba65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97c5a747c58385cc9d83959b1f6be578.setIcon(icon_9e80874093fcbdeecf21ba491460ba65);
+        
+    
+        var popup_cb86ebf4f64bd009c447ffadab5cb0b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02ff64049b0bda8d63cc405d0ce6c48d = $(`<div id="html_02ff64049b0bda8d63cc405d0ce6c48d" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Dwarka. Cause: road_construction. Severity: Negative.</div>`)[0];
+                popup_cb86ebf4f64bd009c447ffadab5cb0b8.setContent(html_02ff64049b0bda8d63cc405d0ce6c48d);
+            
+        
+
+        marker_97c5a747c58385cc9d83959b1f6be578.bindPopup(popup_cb86ebf4f64bd009c447ffadab5cb0b8)
+        ;
+
+        
+    
+    
+            marker_97c5a747c58385cc9d83959b1f6be578.bindTooltip(
+                `<div>
+                     High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d94f13ba845e8b1d0898675a5058e50 = L.marker(
+                [22.2408009, 68.9662602],
+                {}
+            ).addTo(map_034f13bd5f8473a715db8b6f7b64b40d);
+        
+    
+            var icon_444a8e3eca450915d0fd729951cd03ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5d94f13ba845e8b1d0898675a5058e50.setIcon(icon_444a8e3eca450915d0fd729951cd03ba);
+        
+    
+        var popup_026c3a5005344deb8c0200c8fc094e39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41ccabdf57f788404382355ba3357df7 = $(`<div id="html_41ccabdf57f788404382355ba3357df7" style="width: 100.0%; height: 100.0%;">Traffic alert in Delhi near Dwarka. Cause: other. Severity: Positive.</div>`)[0];
+                popup_026c3a5005344deb8c0200c8fc094e39.setContent(html_41ccabdf57f788404382355ba3357df7);
+            
+        
+
+        marker_5d94f13ba845e8b1d0898675a5058e50.bindPopup(popup_026c3a5005344deb8c0200c8fc094e39)
+        ;
+
+        
+    
+    
+            marker_5d94f13ba845e8b1d0898675a5058e50.bindTooltip(
+                `<div>
+                     Low
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
